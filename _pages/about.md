@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- # Hi, I'm Amol Pagare 👋 -->
 
 Welcome to my personal portfolio! I'm a passionate Electronics Engineer and Data Scientist with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
 
@@ -48,10 +47,6 @@ Analyzed wavelet-based techniques for MRI analysis and brain tumor detection.
 
 ## 📫 Contact Me
 
-<!-- - ✉️ Email: [your.email@example.com](mailto:your.email@example.com) -->
-- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/amol-pagare-734967202)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/Amolpagare10)
-
-
-> “Strive for progress, not perfection.”
-
+- ✉️ Email: [email](mailto:amol.pagare.iitb.official@gmail.com)
+- 🔗 LinkedIn: [linkedin](https://linkedin.com/in/amol-pagare-734967202)
+- 🐙 GitHub: [github](https://github.com/Amolpagare10)
