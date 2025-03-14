@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+
+<!-- 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
@@ -46,4 +48,55 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+
+
+# Hi, I'm Amol Pagare 👋
+
+Welcome to my personal portfolio! I'm a passionate Electronics Engineer and Data Scientist with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
+
+
+## 🚀 About Me
+
+- 🎓 Currently pursuing Electrical Engineering at IIT Bombay, expected to graduate in 2027.
+- 🛠️ Skilled in **VHDL, Python, C++, Machine Learning, Deep Learning, Digital Circuit Design**.
+- 💡 Enthusiastic about **research**, **building real-world systems**, and **open-source contributions**.
+
+
+## 📂 Projects
+
+### 1. **IITB-CPU: 16-bit Educational Processor Design**
+Designed a simple 16-bit processor with VHDL for educational purposes.
+- ✅ **Features**: 8-register system, point-to-point communication, ALU, Control Unit.
+- 🔗 [GitHub Repository](https://github.com/Amolpagare10/IITB-CPU)
+
+
+### 2. **EE678 Wavelets and CNNs for Medical Imaging**
+Analyzed wavelet-based techniques for MRI analysis and brain tumor detection.
+- 🧠 **Mid-Sem**: Detection of brain tumors using wavelets + CNN.
+- 🧩 **End-Sem**: MRI image segmentation using wavelet layers in deep neural networks.
+- 🔗 [GitHub Repository](https://github.com/Amolpagare10/EE678-Wavelets)
+
+
+### 3. **EE677 VLSI CAD Assignments and Quantum Circuit Synthesis**
+- ⚙️ **Assignment 1**: Data flow graph generation from netlist.
+- 🔍 **Assignment 2**: Fault detection in circuits using time-unrolling.
+- 💻 **Course Project**: Quantum circuit synthesis using PPRM-based reversible logic.
+- 🔗 [GitHub Repository](https://github.com/Amolpagare10/EE677-VLSI-CAD)
+
+## 🧠 Skills
+
+- **Programming Languages**: Python, VHDL, C++, Verilog
+- **Tools**: NGSpice, Magic VLSI, OpenLane, Git
+- **Domains**: VLSI Design, Digital Logic, Embedded Systems, Machine Learning, Quantum Computing
+
+
+## 📫 Contact Me
+
+<!-- - ✉️ Email: [your.email@example.com](mailto:your.email@example.com) -->
+- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/amol-pagare-734967202)
+- 🐙 GitHub: [github.com/yourusername](https://github.com/Amolpagare10)
+
+
+> “Strive for progress, not perfection.”
+
