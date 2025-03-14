@@ -1,3 +1,9 @@
+---
+title: "Portfolio item number 1"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+
 # Hi, I'm Amol Pagare 👋
 
 Welcome to my personal portfolio! I'm a passionate Electronics Engineer and Data Scientist with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
