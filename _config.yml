@@ -22,11 +22,11 @@ repository               : "https://github.com/Amolpagare10/Amolpagare10.github.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "diff_pic.png"
   name             : "Amol Pagare"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Mumbai/Pune"
+  bio              : "Electronics Engineer and Data Scientist at IIT Bombay, building at the edge of VLSI, AI, and Quantum Computing"
+  location         : "🏫Mumbai/🏠Pune"
   employer         : "IIT Bombay"
   uri              : # URL
   email            : # "none@example.org" 
