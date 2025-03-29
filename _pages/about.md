@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal portfolio! I'm a passionate Electronics Engineering student with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
+Welcome to my personal portfolio! I'm a passionate Electrical Engineering student with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
 
 
 ## 🚀 About Me
