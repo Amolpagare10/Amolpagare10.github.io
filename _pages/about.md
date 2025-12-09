@@ -7,8 +7,12 @@ classes: wide
 custom_css: about.css
 ---
 
-<div class="tech-hero">
+<div class="tech-bg"></div>      <!-- background grid + orbs -->
+<div class="circuit-lines"></div> <!-- floating animated circuits -->
 
+<div class="tech-wrapper">
+
+<div class="tech-hero">
   <h1 class="tech-title">Hi, I'm <strong>Amol</strong> 👋</h1>
   <p class="tech-subtitle">
     EE Dual Degree student at <strong>IIT Bombay</strong>, working across  
@@ -23,19 +27,19 @@ custom_css: about.css
 ## 🌟 What I Love Working On
 <div class="tech-card">
   <ul>
-    <li>Designing <strong>Out-of-Order superscalar processors</strong></li>
-    <li>Building <strong>RISC-V SoCs</strong> with Linux boot flows</li>
-    <li>Exploring <strong>VLSI fabrication processes</strong> & semiconductor physics</li>
-    <li>Developing efficient FPGA + embedded systems</li>
+    <li>Out-of-Order superscalar processor design</li>
+    <li>RISC-V SoC development</li>
+    <li>VLSI process + physical design flows</li>
+    <li>FPGA + embedded systems</li>
   </ul>
 </div>
 
 ## 🌱 Currently Building
 <div class="tech-card">
   <ul>
-    <li>Linux on a custom <strong>RISC-V SoC</strong></li>
-    <li>OoO + superscalar <strong>CPU pipelines</strong> in Verilog</li>
-    <li><strong>EcoSync-8X</strong>, an embedded SHM sensing platform</li>
+    <li>Linux on a custom RISC-V SoC</li>
+    <li>OoO pipelines in Verilog</li>
+    <li>EcoSync-8X SHM system</li>
   </ul>
 </div>
 
@@ -43,18 +47,16 @@ custom_css: about.css
 <div class="tech-card">
   <ul>
     <li>Badminton 🏸</li>
-    <li>Finance & algorithmic trading 📈</li>
+    <li>Quant finance & algorithmic trading 📈</li>
     <li>Electronics tinkering 🔧</li>
   </ul>
 </div>
 
-## 🚀 Career Goals
+## 🚀 Goals
 <div class="tech-card">
   <p>
-    Seeking opportunities in  
-    <strong>Processor Design</strong>,  
-    <strong>VLSI / PD</strong>,  
-    <strong>CAD Tools</strong>, and  
-    <strong>Computer Architecture Research</strong>.
+    Looking for opportunities in Processor Design, VLSI, CAD Tools, and Computer Architecture Research.
   </p>
 </div>
+
+</div> <!-- tech-wrapper -->
