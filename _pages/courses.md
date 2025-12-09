@@ -1,22 +1,13 @@
 ---
 layout: archive
-title: "Testyo got it"
-permalink: /test11111111111/
+title: "Courses"
+permalink: /courses/
 author_profile: true
-redirect_from:  
-  - /resume
+# redirect_from:  
+#   - /resume
 ---
 
-Welcome to my personal portfolio! I'm a passionate Electrical Engineering student with interests in VLSI, AI, Quantum Computing, Embedded Systems. 
-
-
-## 🚀 About Me
-
-- 🎓 Currently pursuing Electrical Engineering at IIT Bombay, expected to graduate in 2027.
-- 🛠️ Skilled in **VHDL, Python, C++, Machine Learning, Deep Learning, Digital Circuit Design**.
-- 💡 Enthusiastic about **research**, **building real-world systems**, and **open-source contributions**.
-
-
+**COURSES**
 ## 📂 Projects
 
 ### 1. **EE224 Digital Systems**
