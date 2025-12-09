@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "Testyo"
+title: "Testyo got it"
 permalink: /test/
 author_profile: true
-redirect_from:
+redirect_from:  
   - /resume
 ---
 

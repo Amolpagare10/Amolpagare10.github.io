@@ -13,7 +13,7 @@ title                    : "Amol's Homepage"
 title_separator          : "-"
 name                     : &name "Amol Pagare"
 description              : &description "personal description"
-url                      : https://amolpagare10.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://amolpagare10.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Amolpagare10/Amolpagare10.github.io.git"
 
