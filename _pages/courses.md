@@ -3,7 +3,14 @@ layout: archive
 title: ""
 permalink: /courses/
 author_profile: true
+custom_css: courses.css
 ---
+<h2 class="section-title">EE 451: Supervised Research</h2>
+
+<div class="course-box">
+  Implemented a full RISC-V SoC with KianV core and booted Linux on FPGA.
+</div>
+
 
 ## **EE 451 — Supervised Research Exposition (Autumn '25)**  
 Prof. Laxmeesha Somappa, IIT Bombay  
@@ -19,7 +26,7 @@ Prof. Anil Kottantharayil
 
 - Simulated silicon oxidation, diffusion, implantation using **Sentaurus**, NanoHUB & PV Lighthouse  
 - Analyzed Deal–Grove/Massoud models, dopant diffusion, junction behavior  
-- Lithography optimization: standing-wave, proximity effects, PEB/ARC tuning using **SProcess**
+- Optimized **Lithographic** steps for standing-waves, proximity effects, PEB/ARC tuning using **SProcess**
 - Explored CMOS process integration: trench isolation, gate-stack, shallow junctions  
 - Understood **FinFET & GAAFET** fabrication at 3nm scale  
 
