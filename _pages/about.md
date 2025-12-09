@@ -7,10 +7,8 @@ classes: wide
 custom_css: about.css
 ---
 
-<!-- Working background FX -->
-<div id="fx-orbs"></div>
-<div id="fx-circuits"></div>
-<div id="fx-nodes"></div>
+<div class="tech-bg"></div>
+<div class="circuit-lines"></div>
 
 <div class="tech-wrapper">
 
@@ -18,14 +16,14 @@ custom_css: about.css
   <h1 class="tech-title">Hi, I'm <strong>Amol</strong> 👋</h1>
   <p class="tech-subtitle">
     EE Dual Degree student at <strong>IIT Bombay</strong>, working across  
-    <span class="chip-tag ripple">Computer Architecture</span>
-    <span class="chip-tag ripple">VLSI Design</span>
-    <span class="chip-tag ripple">Embedded Systems</span>
+    <span class="chip-tag">Computer Architecture</span>
+    <span class="chip-tag">VLSI Design</span>
+    <span class="chip-tag">Embedded Systems</span>
   </p>
 </div>
 
 ## 🌟 What I Love Working On
-<div class="tech-card ripple timeline">
+<div class="tech-card timeline">
   <ul>
     <li>Out-of-Order Superscalar Processors</li>
     <li>RISC-V SoCs</li>
@@ -34,7 +32,7 @@ custom_css: about.css
 </div>
 
 ## 🌱 Current Work
-<div class="tech-card ripple timeline">
+<div class="tech-card timeline">
   <ul>
     <li>Linux on RISC-V SoC</li>
     <li>OoO Pipelines</li>
@@ -43,7 +41,7 @@ custom_css: about.css
 </div>
 
 ## 🎯 Goals
-<div class="tech-card ripple timeline">
+<div class="tech-card timeline">
   <p>Processor Design • VLSI • CAD Tools • Architecture Research</p>
 </div>
 
