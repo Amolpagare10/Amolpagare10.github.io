@@ -7,53 +7,54 @@ classes: wide
 custom_css: about.css
 ---
 
-<div class="mac-hero">
-  <h1 class="mac-title">👋 Hi, I'm <strong>Amol</strong></h1>
-  <p class="mac-subtitle">
-    EE Dual Degree student at <strong>IIT Bombay</strong> exploring 
-    <span class="pill">Computer Architecture</span>,
-    <span class="pill">VLSI</span>,
-    <span class="pill">Embedded Systems</span>.
+<div class="tech-hero">
+
+  <h1 class="tech-title">Hi, I'm <strong>Amol</strong> 👋</h1>
+  <p class="tech-subtitle">
+    EE Dual Degree student at <strong>IIT Bombay</strong>, working across  
+    <span class="chip-tag">Computer Architecture</span>,
+    <span class="chip-tag">VLSI Design</span>,
+    <span class="chip-tag">Embedded Systems</span>.
   </p>
 </div>
 
 ---
 
 ## 🌟 What I Love Working On
-<div class="mac-card">
+<div class="tech-card">
   <ul>
     <li>Designing <strong>Out-of-Order superscalar processors</strong></li>
-    <li>Building <strong>RISC-V SoCs with Linux support</strong></li>
-    <li>Exploring <strong>VLSI fabrication & design flows</strong></li>
-    <li>Developing optimized FPGA + embedded systems</li>
+    <li>Building <strong>RISC-V SoCs</strong> with Linux boot flows</li>
+    <li>Exploring <strong>VLSI fabrication processes</strong> & semiconductor physics</li>
+    <li>Developing efficient FPGA + embedded systems</li>
   </ul>
 </div>
 
 ## 🌱 Currently Building
-<div class="mac-card">
+<div class="tech-card">
   <ul>
     <li>Linux on a custom <strong>RISC-V SoC</strong></li>
-    <li><strong>OoO + superscalar pipelines</strong> in Verilog</li>
-    <li><strong>EcoSync-8X</strong> — an ultrasonic SHM platform</li>
+    <li>OoO + superscalar <strong>CPU pipelines</strong> in Verilog</li>
+    <li><strong>EcoSync-8X</strong>, an embedded SHM sensing platform</li>
   </ul>
 </div>
 
 ## 🎯 Outside Academics
-<div class="mac-card">
+<div class="tech-card">
   <ul>
     <li>Badminton 🏸</li>
-    <li>Finance & algo-trading 📈</li>
+    <li>Finance & algorithmic trading 📈</li>
     <li>Electronics tinkering 🔧</li>
   </ul>
 </div>
 
-## 🚀 Goals
-<div class="mac-card">
+## 🚀 Career Goals
+<div class="tech-card">
   <p>
-    Looking for opportunities in  
+    Seeking opportunities in  
     <strong>Processor Design</strong>,  
-    <strong>VLSI</strong>,  
-    <strong>CAD</strong>,  
+    <strong>VLSI / PD</strong>,  
+    <strong>CAD Tools</strong>, and  
     <strong>Computer Architecture Research</strong>.
   </p>
 </div>
