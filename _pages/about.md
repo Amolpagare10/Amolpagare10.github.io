@@ -7,6 +7,11 @@ classes: wide
 custom_css: about.css
 ---
 
+<div id="fx-orbs"></div>
+<div id="fx-circuits"></div>
+<div id="fx-nodes"></div>
+
+
 <div class="tech-bg"></div>
 <div class="circuit-lines"></div>
 <div class="riscv-overlay"></div>   <!-- New: floating pipeline SVG -->
