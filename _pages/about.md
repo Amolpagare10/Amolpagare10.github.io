@@ -6,15 +6,11 @@ author_profile: true
 classes: wide
 custom_css: about.css
 ---
+
+<!-- Working background FX -->
 <div id="fx-orbs"></div>
 <div id="fx-circuits"></div>
 <div id="fx-nodes"></div>
-
-
-<div class="tech-bg"></div>
-<div class="circuit-lines"></div>
-<div class="riscv-overlay"></div>   <!-- New: floating pipeline SVG -->
-<div class="circuit-particles"></div> <!-- New: floating circuit nodes -->
 
 <div class="tech-wrapper">
 
@@ -27,8 +23,6 @@ custom_css: about.css
     <span class="chip-tag ripple">Embedded Systems</span>
   </p>
 </div>
-
----
 
 ## 🌟 What I Love Working On
 <div class="tech-card ripple timeline">
