@@ -1,10 +1,21 @@
 ---
+layout: single
+title: "Courses"
+permalink: /courses/
+author_profile: true
+classes: wide
+custom_css: courses.css
+---
+
+<!-- ---
 layout: archive
 title: ""
 permalink: /courses/
 author_profile: true
 custom_css: courses.css
----
+--- -->
+
+
 <h2 class="section-title">EE 451: Supervised Research</h2>
 
 <div class="course-box">
