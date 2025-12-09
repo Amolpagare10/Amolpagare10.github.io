@@ -1,16 +1,16 @@
 ---
 layout: single
 permalink: /
-title: "Hi, I'm Amol Pagare 👋"
+title: "Hi, I'm Amol 👋"
 author_profile: true
 classes: wide
 custom_css: about.css
 ---
 
-<div class="intro-card">
-  <h1 class="intro-title">👋 Hi! I'm <strong>Amol</strong></h1>
-  <p class="intro-subtitle">
-    Final-year Dual Degree student in Electrical Engineering at <strong>IIT Bombay</strong>, building things across 
+<div class="glass-card intro">
+  <h1>👋 Hi! I'm <strong>Amol</strong></h1>
+  <p>
+    Final-year Dual Degree student in Electrical Engineering at <strong>IIT Bombay</strong>, exploring  
     <span class="tag">Computer Architecture</span>, 
     <span class="tag">VLSI Design</span>, and 
     <span class="tag">Embedded Systems</span>.
@@ -20,47 +20,47 @@ custom_css: about.css
 ---
 
 ## 🌟 What I Love Working On
-
-I enjoy working **close to the metal**, shaping how computation flows through silicon:
-
-- Designing **Out-of-Order superscalar processors**  
-- Building **RISC-V SoCs** with full Linux support  
-- Exploring **semiconductor process flows**, physical design, and verification  
-- Integrating **custom hardware + firmware** into FPGA-based systems  
-
-If it involves pipelines, caches, timing diagrams, or silicon — I’m interested.
-
----
-
-## 🌱 Currently Building & Exploring
-
-<div class="highlight-box">
+<div class="glass-card">
+  <p>I enjoy working close to the metal — shaping how computation flows through silicon:</p>
   <ul>
-    <li>Booting <strong>Linux on a custom RISC-V SoC</strong></li>
-    <li>Designing <strong>OoO + superscalar CPU pipelines</strong> in Verilog</li>
-    <li>Developing <strong>EcoSync-8X</strong>, an embedded SHM sensing platform</li>
+    <li>Designing <strong>Out-of-Order superscalar processors</strong></li>
+    <li>Building <strong>RISC-V SoCs with full Linux support</strong></li>
+    <li>Exploring <strong>semiconductor processes, PD flows & verification</strong></li>
+    <li>Integrating <strong>custom hardware + firmware</strong> on FPGA systems</li>
   </ul>
 </div>
 
 ---
 
-## 🎯 Beyond Academics
-
-When I’m not debugging RTL or staring at timing reports, you'll find me:
-
-- Playing **badminton** 🏸  
-- Exploring **finance, quantitative strategies & trading**  
-- Building small electronics projects  
+## 🌱 Currently Building
+<div class="glass-card">
+  <ul>
+    <li>Booting <strong>Linux on a custom RISC-V SoC</strong></li>
+    <li>Designing <strong>OoO + superscalar CPU pipelines</strong> in Verilog</li>
+    <li>Developing <strong>EcoSync-8X</strong> — an ultrasonic SHM sensing system</li>
+  </ul>
+</div>
 
 ---
 
-## 🚀 What I’m Looking For
+## 🎯 Outside Academics
+<div class="glass-card">
+  <ul>
+    <li>Playing badminton 🏸</li>
+    <li>Diving into finance & algorithmic trading 📈</li>
+    <li>Tinkering with hobby electronics 🔧</li>
+  </ul>
+</div>
 
-I'm excited about opportunities at the intersection of:
+---
 
-- **Processor Design**  
-- **VLSI / Physical Design**  
-- **CAD for Digital Systems**  
-- **Computer Architecture Research**  
-
-If you're working in any of these areas — let's talk!
+## 🚀 What I'm Looking For
+<div class="glass-card">
+  <p>
+    I'm excited about opportunities in  
+    <strong>Processor Design</strong>,  
+    <strong>VLSI / Physical Design</strong>,  
+    <strong>CAD for Digital Systems</strong>, and  
+    <strong>Computer Architecture Research</strong>.  
+  </p>
+</div>

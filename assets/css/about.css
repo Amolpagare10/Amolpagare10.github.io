@@ -1,69 +1,63 @@
-/* Intro Card */
-.intro-card {
-  background: linear-gradient(135deg, #f3f7ff, #eef2ff);
-  padding: 28px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  border: 1px solid #dfe6ff;
+/* ---- Glassmorphism Base Card ---- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
+  padding: 22px 26px;
+  margin: 25px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
 }
 
-.intro-title {
-  font-size: 32px;
-  margin-bottom: 8px;
+/* Intro Card Slightly Larger */
+.intro {
+  padding: 30px 32px;
+  text-align: left;
+}
+
+.intro h1 {
+  font-size: 34px;
   font-weight: 700;
-  color: #2b2d42;
+  margin-bottom: 8px;
+  color: #1b1f36;
 }
 
-.intro-subtitle {
+.intro p {
   font-size: 17px;
-  color: #444;
   line-height: 1.6;
+  color: #2a2f45;
 }
 
-/* Stylish tags */
+/* ---- Tags ---- */
 .tag {
-  background: #e6edff;
+  background: rgba(100, 150, 255, 0.25);
+  padding: 3px 8px;
   border-radius: 6px;
-  padding: 2px 6px;
-  font-size: 14px;
+  color: #1a3f95;
   font-weight: 600;
-  color: #1a45a0;
+  font-size: 14px;
 }
 
-/* Highlight Box */
-.highlight-box {
-  background: #f8faff;
-  border-left: 4px solid #4a74ff;
-  padding: 15px 18px;
-  border-radius: 6px;
-  margin: 15px 0;
+/* ---- Typography ---- */
+p, li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #242a38;
 }
 
-.highlight-box ul {
+h2 {
+  font-weight: 700;
+  margin-top: 40px;
+  color: #1c2f50;
+}
+
+/* Make the list inside glass cards look clean */
+.glass-card ul {
   margin: 0;
   padding-left: 20px;
 }
 
-.highlight-box li {
+.glass-card li {
   margin-bottom: 6px;
-  line-height: 1.55;
-}
-
-/* Section Headers */
-h2 {
-  margin-top: 32px;
-  color: #1d2d51;
-  font-weight: 700;
-}
-
-/* General text improvements */
-p {
-  font-size: 16px;
-  line-height: 1.68;
-  color: #333;
-}
-
-ul li {
-  font-size: 16px;
-  line-height: 1.6;
 }
