@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "Hi, I'm Tom 👋"
+title: "About Me"
 author_profile: true
 classes: wide
 custom_css: about.css
