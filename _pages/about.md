@@ -7,8 +7,8 @@ classes: wide
 custom_css: about.css
 ---
 
-<div class="tech-bg"></div>
-<div class="circuit-lines"></div>
+<div class="tech-bg"></div>      
+<div class="circuit-lines"></div> 
 
 <div class="tech-wrapper">
 
@@ -16,33 +16,48 @@ custom_css: about.css
   <h1 class="tech-title">Hi, I'm <strong>Amol</strong> 👋</h1>
   <p class="tech-subtitle">
     EE Dual Degree student at <strong>IIT Bombay</strong>, working across  
-    <span class="chip-tag">Computer Architecture</span>
-    <span class="chip-tag">VLSI Design</span>
-    <span class="chip-tag">Embedded Systems</span>
+    <span class="chip-tag">Computer Architecture</span>,
+    <span class="chip-tag">VLSI Design</span>,
+    <span class="chip-tag">Embedded Systems</span>.
   </p>
 </div>
 
-## 🌟 What I Love Working On
-<div class="tech-card timeline">
+---
+
+🌟 What I Love Working On
+<div class="tech-card">
   <ul>
-    <li>Out-of-Order Superscalar Processors</li>
-    <li>RISC-V SoCs</li>
-    <li>VLSI Fabrication & PD Flows</li>
+    <li>Out-of-Order superscalar processor design</li>
+    <li>RISC-V SoC development</li>
+    <li>VLSI process + physical design flows</li>
+    <li>FPGA + embedded systems</li>
   </ul>
 </div>
 
-## 🌱 Current Work
-<div class="tech-card timeline">
+🌱 Currently Building
+<div class="tech-card">
   <ul>
-    <li>Linux on RISC-V SoC</li>
-    <li>OoO Pipelines</li>
-    <li>EcoSync-8X</li>
+    <li>Linux on a custom RISC-V SoC</li>
+    <li>OoO pipelines in Verilog</li>
+    <li>EcoSync-8X SHM system</li>
   </ul>
 </div>
 
-## 🎯 Goals
-<div class="tech-card timeline">
-  <p>Processor Design • VLSI • CAD Tools • Architecture Research</p>
+🎯 Outside Academics
+<div class="tech-card">
+  <ul>
+    <li>Badminton 🏸</li>
+    <li>Quant finance & algorithmic trading 📈</li>
+    <li>Electronics tinkering 🔧</li>
+  </ul>
 </div>
 
+🚀 Goals
+<div class="tech-card">
+  <p>
+    Looking for opportunities in Processor Design, VLSI, CAD Tools, and Computer Architecture Research.
+  </p>
 </div>
+
+</div> <!-- tech-wrapper -->
+

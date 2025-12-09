@@ -1,8 +1,4 @@
-/* ===========================================================
-   BACKGROUND ORBS (WORKING)
-   =========================================================== */
-
-#fx-orbs {
+/* #fx-orbs {
   position: fixed;
   inset: 0;
   z-index: -100;
@@ -40,11 +36,6 @@
   100% { transform: translate(-20px,20px) scale(1.05); }
 }
 
-
-/* ===========================================================
-   FLOATING CIRCUIT GRID (WORKING)
-   =========================================================== */
-
 #fx-circuits {
   position: fixed;
   inset: 0;
@@ -61,11 +52,6 @@
   0% { transform: translateY(0); }
   100% { transform: translateY(-180px); }
 }
-
-
-/* ===========================================================
-   FLOATING CIRCUIT NODES (WORKING)
-   =========================================================== */
 
 #fx-nodes {
   position: fixed;
@@ -105,89 +91,6 @@
   100% { transform: translateY(-250px); opacity: 0.5; }
 }
 
-
-/* ===========================================================
-   HERO SECTION (NEEDED)
-   =========================================================== */
-
-.tech-hero {
-  padding: 40px;
-  border-radius: 20px;
-  background: rgba(20, 26, 39, 0.55);
-  backdrop-filter: blur(18px);
-  border: 1px solid #385375aa;
-  margin-bottom: 35px;
-  box-shadow:
-    inset 0 0 24px rgba(0,200,255,0.08),
-    0 0 20px rgba(0,140,255,0.10);
-}
-
-.tech-title {
-  font-size: 42px;
-  font-weight: 800;
-  color: #e8f1ff;
-  margin-bottom: 10px;
-}
-
-.tech-subtitle {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #ccddff;
-}
-
-
-/* ===========================================================
-   CHIP TAGS (FIXED + ALWAYS VISIBLE)
-   =========================================================== */
-
-.chip-tag {
-  display: inline-block !important;
-  padding: 6px 12px !important;
-  border-radius: 10px !important;
-  background: rgba(0, 120, 255, 0.35) !important;
-  color: #cfe6ff !important;
-  border: 1px solid #4da6ffcc !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  margin: 3px !important;
-  backdrop-filter: blur(4px) !important;
-}
-
-
-/* ===========================================================
-   RIPPLE EFFECT (FIXED)
-   =========================================================== */
-
-.ripple {
-  position: relative !important;
-  overflow: hidden !important;
-}
-
-.ripple::after {
-  content: "";
-  position: absolute;
-  background: radial-gradient(circle, rgba(0,255,255,0.45) 10%, transparent 60%);
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  transition: width 0.5s ease, height 0.5s ease, opacity 0.5s ease;
-}
-
-.ripple:hover::after {
-  width: 160px;
-  height: 160px;
-  opacity: 0.4;
-  top: 50%;
-  left: 50%;
-}
-
-
-/* ===========================================================
-   TECH CARD (FIXED)
-   =========================================================== */
-
 .tech-card {
   padding: 26px;
   border-radius: 18px;
@@ -208,20 +111,211 @@
   font-size: 17px;
   line-height: 1.6;
   color: #d4e0ff;
+} */
+
+
+/* ===========================================================
+   0. GLOBAL DARK/LIGHT MODE
+   Uses system theme (prefers-color-scheme)
+   =========================================================== */
+
+:root {
+  --bg-light: #f5f7fc;
+  --bg-dark: #0d1117;
+
+  --text-light: #222;
+  --text-dark: #e6e6e6;
+
+  --card-light: rgba(255, 255, 255, 0.45);
+  --card-dark: rgba(20, 26, 39, 0.55);
+
+  --border-light: rgba(255, 255, 255, 0.35);
+  --border-dark: rgba(255, 255, 255, 0.18);
+
+  --circuit-glow: #29b6f6;
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background: var(--bg-light) !important;
+    color: var(--text-light);
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--bg-dark) !important;
+    color: var(--text-dark);
+  }
 }
 
 
 /* ===========================================================
-   TIMELINE ANIMATION (FIXED)
+   1. MOVING WWDC GRADIENT ORBS
    =========================================================== */
 
-.timeline {
-  opacity: 0;
-  transform: translateY(40px);
-  animation: timelineIn 1.2s ease forwards;
+.tech-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  overflow: hidden;
 }
 
-@keyframes timelineIn {
-  0% { opacity: 0; transform: translateY(40px); }
-  100% { opacity: 1; transform: translateY(0); }
+.tech-bg::before,
+.tech-bg::after {
+  content: "";
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  filter: blur(120px);
+  animation: float-orb 18s infinite ease-in-out alternate;
+}
+
+/* Orb 1 */
+.tech-bg::before {
+  top: -120px;
+  left: -100px;
+  background: radial-gradient(circle, #4A73FF 0%, transparent 70%);
+}
+
+/* Orb 2 */
+.tech-bg::after {
+  bottom: -150px;
+  right: -150px;
+  background: radial-gradient(circle, #00E0FF 0%, transparent 70%);
+  animation-delay: 3s;
+}
+
+@keyframes float-orb {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, -30px) scale(1.15); }
+  100% { transform: translate(-20px, 20px) scale(1.05); }
+}
+
+
+/* ===========================================================
+   2. FLOATING ANIMATED CIRCUIT LINES
+   =========================================================== */
+
+.circuit-lines {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  opacity: 0.28;
+  background:
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent 94%,
+      #4d9dff22 96%
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 94%,
+      #4d9dff22 96%
+    );
+  animation: circuit-scroll 28s linear infinite;
+}
+
+@keyframes circuit-scroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(-180px); }
+}
+
+
+/* ===========================================================
+   3. HERO SECTION (Tech-themed)
+   =========================================================== */
+
+.tech-wrapper {
+  position: relative;
+  z-index: 3;
+}
+
+.tech-hero {
+  padding: 48px;
+  border-radius: 22px;
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--border-dark);
+  background: rgba(20, 26, 39, 0.45);
+  margin-bottom: 40px;
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.25),
+    inset 0 0 30px rgba(0,200,255,0.08);
+}
+
+.tech-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #dff3ff;
+  text-shadow: 0 0 18px #4da0ff66;
+}
+
+.tech-subtitle {
+  font-size: 18px;
+  color: #aac7ff;
+  line-height: 1.6;
+}
+
+
+/* ===========================================================
+   4. CHIP TAGS (animated)
+   =========================================================== */
+
+.chip-tag {
+  padding: 6px 12px;
+  border-radius: 10px;
+  background: rgba(0, 80, 160, 0.35);
+  border: 1px solid #4da6ff66;
+  color: #9fd6ff;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 3px;
+  box-shadow:
+    inset 0 0 14px #009dff55,
+    0 0 10px #007bff55;
+  transition: 0.25s ease;
+}
+
+.chip-tag:hover {
+  transform: translateY(-2px);
+  background: rgba(0, 80, 160, 0.55);
+  box-shadow:
+    inset 0 0 22px #00c2ff88,
+    0 0 14px #29b6f6;
+}
+
+
+/* ===========================================================
+   5. TECH CARDS
+   =========================================================== */
+
+.tech-card {
+  padding: 26px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+  background: rgba(15, 20, 30, 0.55);
+  border: 1px solid #385375aa;
+  backdrop-filter: blur(14px);
+  box-shadow:
+    inset 0 0 22px rgba(0,200,255,0.06),
+    0 0 18px rgba(0,140,255,0.10);
+}
+
+.tech-card li {
+  color: #cfe0ff;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.tech-card p {
+  color: #d8e7ff;
+  font-size: 17px;
+  line-height: 1.7;
 }
