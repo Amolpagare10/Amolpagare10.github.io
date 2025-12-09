@@ -7,8 +7,8 @@ classes: wide
 custom_css: about.css
 ---
 
-<div class="tech-bg"></div>      <!-- background grid + orbs -->
-<div class="circuit-lines"></div> <!-- floating animated circuits -->
+<div class="tech-bg"></div>      
+<div class="circuit-lines"></div> 
 
 <div class="tech-wrapper">
 
