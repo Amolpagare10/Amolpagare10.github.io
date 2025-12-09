@@ -2,9 +2,9 @@
 permalink: /
 title: "Hi, I'm Amol Pagare 👋"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+# redirect_from: 
+#   - /about/
+#   - /about.html
 ---
 
 👋 Hi! I’m **Amol**, a final-year Dual Degree student in Electrical Engineering at **IIT Bombay**, learning cool things across **Computer Architecture**, **VLSI Design**, and **Embedded Systems**.
