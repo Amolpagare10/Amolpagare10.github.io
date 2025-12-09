@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Testyo got it"
-permalink: /test/
+permalink: /test11111111111/
 author_profile: true
 redirect_from:  
   - /resume
