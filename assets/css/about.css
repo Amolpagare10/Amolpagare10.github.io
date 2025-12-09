@@ -1,103 +1,207 @@
 /* ===========================================================
-   Subtle Blurred Background
+   BACKGROUND ORBS (WORKING)
    =========================================================== */
 
-.tech-bg {
+#fx-orbs {
   position: fixed;
   inset: 0;
-  z-index: -5;
-  background: radial-gradient(circle at 20% 30%, #1a3d6b55, transparent 60%),
-              radial-gradient(circle at 80% 70%, #003f7a55, transparent 60%);
-  filter: blur(60px);
+  z-index: -100;
   pointer-events: none;
+  overflow: hidden;
 }
 
+#fx-orbs::before,
+#fx-orbs::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(120px);
+  animation: orbMove 16s infinite ease-in-out alternate;
+}
+
+#fx-orbs::before {
+  top: -80px;
+  left: -60px;
+  background: #5f8bff66;
+}
+
+#fx-orbs::after {
+  bottom: -120px;
+  right: -80px;
+  background: #00ffee55;
+  animation-delay: 3s;
+}
+
+@keyframes orbMove {
+  0% { transform: translate(0,0) scale(1); }
+  50% { transform: translate(40px,-30px) scale(1.12); }
+  100% { transform: translate(-20px,20px) scale(1.05); }
+}
+
+
 /* ===========================================================
-   Animated Circuit Grid
+   FLOATING CIRCUIT GRID (WORKING)
    =========================================================== */
 
-.circuit-lines {
+#fx-circuits {
   position: fixed;
   inset: 0;
-  z-index: -4;
+  z-index: -90;
   pointer-events: none;
   background:
-    repeating-linear-gradient(to right, transparent 0 97%, #4da6ff16 100%),
-    repeating-linear-gradient(to bottom, transparent 0 97%, #4da6ff16 100%);
-  background-size: 60px 60px;
-  animation: circuitFloat 25s linear infinite;
+    repeating-linear-gradient(to right, transparent 0 98%, #4da6ff16 100%),
+    repeating-linear-gradient(to bottom, transparent 0 98%, #4da6ff16 100%);
+  background-size: 55px 55px;
+  animation: circuitFloat 32s linear infinite;
 }
 
 @keyframes circuitFloat {
-  from { transform: translateY(0px); }
-  to { transform: translateY(-180px); }
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-180px); }
 }
+
 
 /* ===========================================================
-   Hero Section
+   FLOATING CIRCUIT NODES (WORKING)
    =========================================================== */
 
-.tech-wrapper {
-  position: relative;
-  z-index: 2;
+#fx-nodes {
+  position: fixed;
+  inset: 0;
+  z-index: -80;
+  pointer-events: none;
 }
+
+#fx-nodes::before,
+#fx-nodes::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #29b6f6;
+  border-radius: 50%;
+  box-shadow:
+    120px 160px #00e0ff,
+    280px 60px #4dabffcc,
+    420px 240px #33ccff,
+    620px 140px #009dffdd;
+  animation: driftNodes 18s linear infinite;
+}
+
+#fx-nodes::after {
+  animation-delay: 6s;
+  box-shadow:
+    80px 300px #33ddff,
+    200px 100px #66e0ffcc,
+    540px 60px #20c8ff,
+    400px 260px #5ab8ff;
+}
+
+@keyframes driftNodes {
+  0% { transform: translateY(0); opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-250px); opacity: 0.5; }
+}
+
+
+/* ===========================================================
+   HERO SECTION (NEEDED)
+   =========================================================== */
 
 .tech-hero {
   padding: 40px;
   border-radius: 20px;
   background: rgba(20, 26, 39, 0.55);
-  border: 1px solid #385375aa;
   backdrop-filter: blur(18px);
+  border: 1px solid #385375aa;
   margin-bottom: 35px;
   box-shadow:
     inset 0 0 24px rgba(0,200,255,0.08),
-    0 0 18px rgba(0,140,255,0.10);
+    0 0 20px rgba(0,140,255,0.10);
 }
 
 .tech-title {
   font-size: 42px;
   font-weight: 800;
   color: #e8f1ff;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .tech-subtitle {
   font-size: 18px;
-  line-height: 1.65;
+  line-height: 1.6;
   color: #ccddff;
 }
 
+
 /* ===========================================================
-   Chip Tags
+   CHIP TAGS (FIXED + ALWAYS VISIBLE)
    =========================================================== */
 
 .chip-tag {
-  display: inline-block;
-  padding: 6px 12px;
-  margin: 4px;
-  border-radius: 10px;
-  background: rgba(0, 120, 255, 0.30);
-  border: 1px solid #4da6ffcc;
-  color: #d7eaff;
-  font-size: 14px;
-  font-weight: 600;
-  backdrop-filter: blur(4px);
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  border-radius: 10px !important;
+  background: rgba(0, 120, 255, 0.35) !important;
+  color: #cfe6ff !important;
+  border: 1px solid #4da6ffcc !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin: 3px !important;
+  backdrop-filter: blur(4px) !important;
 }
 
+
 /* ===========================================================
-   Tech Cards
+   RIPPLE EFFECT (FIXED)
+   =========================================================== */
+
+.ripple {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(circle, rgba(0,255,255,0.45) 10%, transparent 60%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s ease, height 0.5s ease, opacity 0.5s ease;
+}
+
+.ripple:hover::after {
+  width: 160px;
+  height: 160px;
+  opacity: 0.4;
+  top: 50%;
+  left: 50%;
+}
+
+
+/* ===========================================================
+   TECH CARD (FIXED)
    =========================================================== */
 
 .tech-card {
   padding: 26px;
-  border-radius: 16px;
-  margin-bottom: 24px;
+  border-radius: 18px;
+  margin: 20px 0;
   border: 1px solid #385375aa;
   background: rgba(20, 26, 39, 0.55);
   backdrop-filter: blur(14px);
   box-shadow:
-    inset 0 0 22px rgba(0,200,255,0.05),
-    0 0 10px rgba(0,140,255,0.12);
+    inset 0 0 22px rgba(0,200,255,0.08),
+    0 0 14px rgba(0,140,255,0.15);
+}
+
+.tech-card ul {
+  padding-left: 20px;
 }
 
 .tech-card li {
@@ -106,55 +210,18 @@
   color: #d4e0ff;
 }
 
+
 /* ===========================================================
-   Timeline Slide-Up Animation
+   TIMELINE ANIMATION (FIXED)
    =========================================================== */
 
 .timeline {
   opacity: 0;
   transform: translateY(40px);
-  animation: timelineIn 1s ease forwards;
+  animation: timelineIn 1.2s ease forwards;
 }
-
-.timeline:nth-of-type(1) { animation-delay: 0.2s; }
-.timeline:nth-of-type(2) { animation-delay: 0.35s; }
-.timeline:nth-of-type(3) { animation-delay: 0.5s; }
 
 @keyframes timelineIn {
   0% { opacity: 0; transform: translateY(40px); }
   100% { opacity: 1; transform: translateY(0); }
-}
-
-/* ===========================================================
-   Dynamic Hover Glow That Follows Cursor
-   =========================================================== */
-
-.tech-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.tech-card::after {
-  content: "";
-  position: absolute;
-  top: var(--mouse-y);
-  left: var(--mouse-x);
-  width: 0;
-  height: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  background: radial-gradient(circle, rgba(0, 200, 255, 0.35) 0%, transparent 60%);
-  opacity: 0;
-  transition:
-    width 0.35s ease-out,
-    height 0.35s ease-out,
-    opacity 0.35s ease-out,
-    top 0s,
-    left 0s;
-}
-
-.tech-card:hover::after {
-  width: 300px;
-  height: 300px;
-  opacity: 0.4;
 }
