@@ -1,3 +1,7 @@
+/* ===========================================================
+   BACKGROUND ORBS (WORKING)
+   =========================================================== */
+
 #fx-orbs {
   position: fixed;
   inset: 0;
@@ -36,6 +40,11 @@
   100% { transform: translate(-20px,20px) scale(1.05); }
 }
 
+
+/* ===========================================================
+   FLOATING CIRCUIT GRID (WORKING)
+   =========================================================== */
+
 #fx-circuits {
   position: fixed;
   inset: 0;
@@ -52,6 +61,11 @@
   0% { transform: translateY(0); }
   100% { transform: translateY(-180px); }
 }
+
+
+/* ===========================================================
+   FLOATING CIRCUIT NODES (WORKING)
+   =========================================================== */
 
 #fx-nodes {
   position: fixed;
@@ -91,6 +105,89 @@
   100% { transform: translateY(-250px); opacity: 0.5; }
 }
 
+
+/* ===========================================================
+   HERO SECTION (NEEDED)
+   =========================================================== */
+
+.tech-hero {
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(20, 26, 39, 0.55);
+  backdrop-filter: blur(18px);
+  border: 1px solid #385375aa;
+  margin-bottom: 35px;
+  box-shadow:
+    inset 0 0 24px rgba(0,200,255,0.08),
+    0 0 20px rgba(0,140,255,0.10);
+}
+
+.tech-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #e8f1ff;
+  margin-bottom: 10px;
+}
+
+.tech-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccddff;
+}
+
+
+/* ===========================================================
+   CHIP TAGS (FIXED + ALWAYS VISIBLE)
+   =========================================================== */
+
+.chip-tag {
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  border-radius: 10px !important;
+  background: rgba(0, 120, 255, 0.35) !important;
+  color: #cfe6ff !important;
+  border: 1px solid #4da6ffcc !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin: 3px !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+
+/* ===========================================================
+   RIPPLE EFFECT (FIXED)
+   =========================================================== */
+
+.ripple {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(circle, rgba(0,255,255,0.45) 10%, transparent 60%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s ease, height 0.5s ease, opacity 0.5s ease;
+}
+
+.ripple:hover::after {
+  width: 160px;
+  height: 160px;
+  opacity: 0.4;
+  top: 50%;
+  left: 50%;
+}
+
+
+/* ===========================================================
+   TECH CARD (FIXED)
+   =========================================================== */
+
 .tech-card {
   padding: 26px;
   border-radius: 18px;
@@ -111,4 +208,20 @@
   font-size: 17px;
   line-height: 1.6;
   color: #d4e0ff;
+}
+
+
+/* ===========================================================
+   TIMELINE ANIMATION (FIXED)
+   =========================================================== */
+
+.timeline {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: timelineIn 1.2s ease forwards;
+}
+
+@keyframes timelineIn {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
