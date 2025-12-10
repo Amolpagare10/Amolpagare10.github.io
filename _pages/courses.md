@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Courses"
+title: ""
 permalink: /courses/
 author_profile: true
 classes: wide
@@ -13,7 +13,7 @@ custom_css: courses.css
 <div class="tech-wrapper">
 
 <div class="tech-hero">
-  <h1 class="tech-title">📘 Courses & <strong>Academic Work</strong></h1>
+  <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1>
   <p class="tech-subtitle">
     A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
     <span class="chip-tag">Computer Architecture</span>
@@ -22,16 +22,10 @@ custom_css: courses.css
     <span class="chip-tag">Embedded Systems</span>
     <span class="chip-tag">DSP & ML</span>
   </p>
-</div>
 
-<div class="tech-hero">
-tdvtyvd
-sduydsgd
-ddd
-</div>
 
 <div class="gh-box gh-info">
-  <strong>📦 Course Repository:</strong>  
+  <strong>📦 Course Repository:</strong><br>  
   View all code, reports, and project files here:<br>
   <a href="YOUR_GITHUB_LINK" target="_blank">🔗 github.com/username/courses</a>
 </div>
@@ -203,5 +197,6 @@ ddd
     and complement my research & project work.
   </p>
 </div>
-
+</div> <!-- tech-hero -->
 </div> <!-- tech-wrapper -->
+
