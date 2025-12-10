@@ -103,8 +103,14 @@ custom_css: academics.css
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE705" target="_blank">🔗 github.com/.../EE705</a>
+          <p>
+            This repository contains all Verilog-based assignments and projects from **EE 705: VLSI Design Lab**, covering arithmetic units, memory subsystems, and a complete **RISC-V 32IM processor** implementation. ⚙️💻<br>  
+            It includes designs such as **Brent–Kung adders**, **Dadda multipliers**, **barrel shifters**, and custom **I-/D-cache** architectures, all validated through simulations and FPGA runs. 🔧📐<br>  
+            The RISC-V subsystem integrates ALU decode logic, execution pipelines, LSU/CSR modules, and cache hierarchies, culminating in a full **AXI4-Lite based SoC**. 🚀  
+            Each assignment is backed by detailed reports, testbenches, Vivado projects, and hardware debugging via VIO/ILA. 📑📊<br>  
+            Overall, the repository demonstrates complete RTL-to-FPGA design flow and hands-on SoC development experience. 🖥️✨
+          </p>
+          <a href="https://github.com/Amolpagare10/EE_705_VLSI_Design_Lab" target="_blank">🔗 https://github.com/Amolpagare10/EE_705_VLSI_Design_Lab</a>
         </div>
       </div>
     </details>
