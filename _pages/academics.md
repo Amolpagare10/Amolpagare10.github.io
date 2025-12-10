@@ -165,19 +165,26 @@ custom_css: academics.css
             Project 2 implements a Laplacian edge-detection filter in Verilog, integrating arithmetic blocks and taking the design from RTL to layout with waveform and performance analysis.<br>
             Together, these works demonstrate proficiency across device-to-system VLSI workflows, from transistor-level design to full SoC-ready physical implementations.<br>
           </p>
-          <a href="YOUR_GITHUB_LINK/EE671" target="_blank">🔗 github.com/.../EE671</a>
+          <a href="https://github.com/Amolpagare10/EE671_VLSI_Design" target="_blank">🔗 https://github.com/Amolpagare10/EE671_VLSI_Design</a>
         </div>
       </div>
     </details>
     <!-- EE 669 -->
-    <li><strong>EE 669 — VLSI Technology</strong><br>Short course summary here.</li>
+    <li><strong>EE 669 — VLSI Technology</strong><br>This course covers the complete VLSI process flow—from wafer cleaning, oxidation, diffusion, implantation, lithography, CVD/PVD deposition, plasma/RTP processing, interconnect fabrication, to full NMOS/CMOS/Bipolar process integration. It also explores advanced device technologies including high-k/metal-gate stacks, multi-level metallization, and modern nanoscale architectures such as FinFETs and GAAFETs down to 3 nm.</li>
     <details class="gh-collapse">
       <summary><strong>EE 669 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE669" target="_blank">🔗 github.com/.../EE669</a>
+          <p>
+          This repository documents my coursework for EE669 VLSI Technology, covering foundational and advanced semiconductor process engineering.<br>  
+          It includes simulations and analysis of oxidation, diffusion, ion implantation, lithography, deposition, etching, and thermal/plasma processing.<br>  
+          Assignments explore crystal anisotropy, Deal–Grove/Massoud oxidation models, dopant diffusion behavior, and lithography artifacts such as standing waves and proximity effects.<br>  
+          The TCAD section features Sentaurus-based simulations for oxide growth, diffusion, trench processes, and ion implantation using SRIM and SProcess.<br>  
+          The repo emphasizes process integration, device scaling trends, and modern device technologies such as FinFETs and GAAFETs.<br>  
+          Together, these works demonstrate hands-on modeling and deep understanding of VLSI fabrication workflows from wafer to device.
+        </p>
+          <a href="https://github.com/Amolpagare10/EE_669_VLSI_Technology" target="_blank">🔗 https://github.com/Amolpagare10/EE_669_VLSI_Technology</a>
         </div>
       </div>
     </details>
