@@ -79,14 +79,20 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 709 -->
-    <li><strong>EE 709 — Testing & Verification of VLSI Circuits</strong><br>Short course summary here.</li>
+    <li><strong>EE 709 — Testing & Verification of VLSI Circuits</strong><br>Covers Boolean algebra, VLSI design flow, formal verification, BDD/SAT-based reasoning, equivalence checking, and fault modeling for testing digital circuits. Focuses on automated techniques that ensure correctness and reliability of combinational and sequential hardware designs.</li>
     <details class="gh-collapse">
       <summary><strong>EE 709 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE709" target="_blank">🔗 github.com/.../EE709</a>
+          <p>
+            This repository contains all assignments for EE 709: Testing & Verification of VLSI Circuits, focusing on ROBDD-based modeling and ATPG workflows.<br>  
+            It includes state-machine encoding, Boolean function analysis, output-space feasibility checking, and ROBDD-driven equivalence verification.<br>  
+            The ATPG section features fault equivalence classification, SAT-based test pattern generation, and deductive fault simulation for stuck-at defects.<br>  
+            Problems cover invertibility checks, impossible-output detection, and analysis of structural faults using Minisat.<br>  
+            Overall, the repository demonstrates formal verification methods and automated testing techniques used to validate and ensure correctness of digital hardware.
+          </p>
+          <a href="https://github.com/Amolpagare10/EE_709_Testing_and_Verification_of_VLSI_Circuits" target="_blank">🔗 https://github.com/Amolpagare10/EE_709_Testing_and_Verification_of_VLSI_Circuits</a>
         </div>
       </div>
     </details>
