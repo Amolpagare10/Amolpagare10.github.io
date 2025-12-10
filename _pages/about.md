@@ -38,5 +38,21 @@ custom_css: about.css
     <li><strong>Algoswarm, Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
   </ul>
+
+  <details class="gh-collapse">
+  <summary>
+    <span class="arrow">▶</span>
+    <strong>IBM Quantum Challenge — Repository Info</strong>
+  </summary>
+
+  <div class="gh-box gh-info collapse-body">
+    <p><strong>📦 Repository:</strong></p>
+    Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
+    <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">
+      🔗 github.com/.../IBM-Quantum-Challenge
+    </a>
+  </div>
+</details>
+
   
 </div>
