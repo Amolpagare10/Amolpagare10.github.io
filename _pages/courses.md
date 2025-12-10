@@ -7,161 +7,206 @@ classes: wide
 custom_css: courses.css
 ---
 
-<!-- ---
-layout: archive
-title: ""
-permalink: /courses/
-author_profile: true
-custom_css: courses.css
---- -->
+<div class="tech-bg"></div>
+<div class="circuit-lines"></div>
 
+<div class="tech-wrapper">
 
-<h2 class="section-title">EE 451: Supervised Research</h2>
+# <span class="tech-title">📘 Courses & Academic Work</span>
+<p class="tech-subtitle">
+  A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
+  <span class="chip-tag">Computer Architecture</span>
+  <span class="chip-tag">VLSI Design</span>
+  <span class="chip-tag">CAD Tools</span>
+  <span class="chip-tag">Embedded Systems</span>
+  <span class="chip-tag">DSP & ML</span>
+</p>
 
-<div class="course-box">
-  Implemented a full RISC-V SoC with KianV core and booted Linux on FPGA.
+---
+
+## <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
+<div class="tech-card">
+  <p><strong>Advisor:</strong> Prof. Laxmeesha Somappa</p>
+  <ul>
+    <li>Implemented a full <strong>RISC-V SoC</strong> with KianV core on FPGA.</li>
+    <li>Designed FPGA top-level, constraints, bitstream generation.</li>
+    <li><strong>Successfully booted Linux</strong> on the SoC running on Pynq-Z2.</li>
+  </ul>
 </div>
 
+---
 
-## **EE 451 — Supervised Research Exposition (Autumn '25)**  
-Prof. Laxmeesha Somappa, IIT Bombay  
-
-- Synthesized and Implemented KianV SoC on Pynq-Z2 FPGA
-- Designed FPGA top-level, generated bitstream, deployed on hardware  
-- **Successfully booted the Linux kernel** on FPGA.
+## EE 669 — VLSI Technology (Autumn ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Anil Kottantharayil</p>
+  <ul>
+    <li>Simulated oxidation, diffusion & implantation using <strong>Sentaurus</strong>.</li>
+    <li>Analyzed Deal–Grove/Massoud models & dopant junction behavior.</li>
+    <li>Optimized lithography (standing waves, proximity effects, PEB/ARC tuning).</li>
+    <li>Explored CMOS integration: STI, gate-stack, high-k/metal gate flows.</li>
+    <li>Studied fabrication of <strong>FinFET & GAAFET</strong> at advanced nodes.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 669 — VLSI Technology (Autumn '25)**  
-Prof. Anil Kottantharayil  
-
-- Simulated silicon oxidation, diffusion, implantation using **Sentaurus**, NanoHUB & PV Lighthouse  
-- Analyzed Deal–Grove/Massoud models, dopant diffusion, junction behavior  
-- Optimized **Lithographic** steps for standing-waves, proximity effects, PEB/ARC tuning using **SProcess**
-- Explored CMOS process integration: trench isolation, gate-stack, shallow junctions  
-- Understood **FinFET & GAAFET** fabrication at 3nm scale  
-
----
-
-## **EE 709 — Testing & Verification of VLSI Circuits (Autumn '25)**  
-Prof. Madhav Desai  
-
-- Modeled Boolean functions & FSMs using **cmubdd** for equivalence verification  
-- Built optimized Mealy machines with don’t-care utilization  
-- Explored invertibility & impossible outputs via structured **ROBDD traversal**  
-- Performed **ATPG using Minisat**, generating distinguishing test vectors  
-- Conducted **deductive fault simulation** for stuck-at analysis  
+## EE 709 — Testing & Verification of VLSI Circuits (Autumn ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Madhav Desai</p>
+  <ul>
+    <li>Modeled Boolean functions & FSMs using <strong>cmubdd</strong>.</li>
+    <li>Built optimized Mealy machines with don’t-care propagation.</li>
+    <li>Performed structured <strong>ROBDD traversal</strong> for invertibility analysis.</li>
+    <li>Ran <strong>SAT-based ATPG</strong> using Minisat to generate test vectors.</li>
+    <li>Conducted deductive fault simulation for stuck-at defects.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 748 — Advanced Topics in Computer Architecture (Autumn '25)**  
-Prof. Virendra Singh  
-
-- Characterized **SPEC2006** workloads using MPKI, APKI, LLC sensitivity and IPC trends  
-- Designed custom **LLC replacement policies** (LRU-slow, LRU-6)  
-- Implemented guided branch prediction using **RVCF-style core hints**  
-- Proposed GPU optimizations combining **NL-DWF + register prefetching**  
-
----
-
-## **EE 789 — Algorithmic Design of Digital Systems (Spring '25)**  
-Prof. Madhav Desai  
-
-- Implemented matrix multiplication variants in **Algorithmic Assembly**  
-- Designed shift/add multipliers, parallel multipliers, dividers, sqrt units  
-- Built a **4×4 output-queued switch** with fair arbitration & structured queues  
-- Applied Aa → hardware compilation (elastic pipelines, guarded statements)  
-- Generated cycle-accurate **VHDL** via AHIR toolchain  
+## EE 748 — Advanced Topics in Computer Architecture (Autumn ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Virendra Singh</p>
+  <ul>
+    <li>Characterized <strong>SPEC2006</strong> workloads via MPKI/APKI/IPC/LLC sensitivity.</li>
+    <li>Developed custom <strong>LLC replacement policies</strong> (LRU-slow, LRU-6).</li>
+    <li>Designed guided branch prediction using RVCF-style hints.</li>
+    <li>Proposed GPU performance improvements via NL-DWF + register prefetching.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 705 — VLSI Design Lab (Spring '25)**  
-Prof. Laxmeesha Somappa  
-
-- Designed + verified: **32-bit Brent–Kung adder**, **Dadda multiplier**, **barrel shifter**  
-- Built arithmetic subsystems using controllers, BRAM, VIO on PYNQ FPGA  
-- Implemented **ALU DECODE** for RISC-V 32IM  
-- Built full **RISC-V SoC** with ALU, decode, LSU, CSR, AXI, UART, GPIO  
-
----
-
-## **EE 739 — Processor Design (Spring '25)**  
-Prof. Virendra Singh  
-
-- Designed a pipelined **OoO superscalar processor** with ALU/LSU pipelines  
-- Implemented stages: fetch → decode → issue → execute → writeback  
-- Built hazard detection, stall/flush logic, forwarding  
-- Developed **ARF/RRF-based register renaming** + ROB for in-order commit  
-- Verified scheduling & execution using reservation stations + load buffers  
+## EE 789 — Algorithmic Design of Digital Systems (Spring ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Madhav Desai</p>
+  <ul>
+    <li>Implemented matrix multiplication variants in <strong>Algorithmic Assembly</strong>.</li>
+    <li>Designed multipliers, dividers, sqrt units & parallel arithmetic modules.</li>
+    <li>Built a <strong>4×4 output-queued switch</strong> supporting fair arbitration.</li>
+    <li>Used Aa → hardware compilation (elastic pipelines, guarded actions).</li>
+    <li>Generated cycle-accurate <strong>VHDL</strong> using the AHIR toolchain.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 344 — Electronic Design Lab (Spring '25)**  
-Prof. Siddharth Tallur  
-
-- Built **EcoSync 8X**, a dsPIC33A-based ultrasonic SHM platform  
-- Implemented 100 kHz excitation & sensing with instrumentation-grade amplification  
-- Integrated dsPIC33 + ESP32 for control, data capture & wireless communication  
-- Designed PCB in KiCAD + fabricated custom enclosure  
-
----
-
-## **EE 671 — VLSI Design (Autumn '24)**  
-Prof. Laxmeesha Somappa  
-
-- Built Laplacian filter accelerator using Verilog for 16×16 edge detection  
-- Designed Kogge-Stone adder, multiplexer blocks, pixel clipping logic  
-- Completed full **OpenLane flow**: synthesis → PnR → CTS → STA → DRC/LVS  
-- Generated final **GDS-II**, liberty & LEF files  
+## EE 705 — VLSI Design Lab (Spring ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Laxmeesha Somappa</p>
+  <ul>
+    <li>Designed & verified: Brent–Kung adder, Dadda multiplier, barrel shifter.</li>
+    <li>Built arithmetic subsystems using BRAM, controllers, VIO.</li>
+    <li>Implemented <strong>ALU DECODE</strong> for RISC-V 32IM.</li>
+    <li>Built full <strong>RISC-V SoC</strong> with AXI, CSR, GPIO & UART subsystems.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 677 — VLSI CAD (Autumn '24)**  
-Prof. Virendra Singh  
-
-- Implemented reversible logic synthesis using **PPRM expansions** + Toffoli networks  
-- Used priority-based search trees & heuristics to minimize expansions  
-- Designed Verilog/EDIF-compatible circuit simulator  
-
----
-
-## **EE 678 — Wavelets & Multirate DSP (Autumn '24)**  
-Prof. Vikram Gadre  
-
-- Integrated **DWT/IDWT** into U-Net for high-frequency feature retention  
-- Built dual DWT-IDWT pathways at deep blocks, improving DICE & precision  
-- Experimented with wavelet bases & tuned under compute constraints  
+## EE 739 — Processor Design (Spring ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Virendra Singh</p>
+  <ul>
+    <li>Designed pipelined <strong>OoO superscalar processor</strong>.</li>
+    <li>Implemented rename, issue, execute, commit with ROB.</li>
+    <li>Designed hazard detection, stall/flush mechanisms, forwarding paths.</li>
+    <li>Verified scheduling using reservation stations & load buffers.</li>
+  </ul>
+</div>
 
 ---
 
-## **EE 309 — CISC & RISC Processor Design (Spring '24)**  
-Prof. Virendra Singh  
-
-- Designed pipelined processor with stalling, forwarding & branch prediction  
-- Executed 26 instructions across six pipeline stages  
-- Built decoders, hazard detection, and FPGA demo on Intel Max-10  
-
----
-
-## **DH 607 — Computational Multi-Omics (Autumn '25)**  
-Prof. Saket Choudhary  
-
-- Implemented core algorithms: **BWT**, Needleman–Wunsch, suffix structures  
-- Built multi-omics pipelines for genomic + miRNA network analysis  
-- Modeled mutation impacts via **Boltz docking**  
+## EE 344 — Electronic Design Lab (Spring ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Siddharth Tallur</p>
+  <ul>
+    <li>Built <strong>EcoSync-8X</strong>, a dsPIC33A-based ultrasonic SHM platform.</li>
+    <li>Developed 100 kHz excitation & sensing pipelines.</li>
+    <li>Integrated dsPIC33 + ESP32 for wireless communication.</li>
+    <li>Designed PCB using KiCAD & fabricated custom enclosure.</li>
+  </ul>
+</div>
 
 ---
 
-# 📘 Summary
+## EE 671 — VLSI Design (Autumn ’24)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Laxmeesha Somappa</p>
+  <ul>
+    <li>Built Laplacian filter accelerator in Verilog.</li>
+    <li>Designed Kogge-Stone adder, mux networks & clipping logic.</li>
+    <li>Completed full <strong>OpenLane flow</strong>: synth → PnR → STA → DRC/LVS.</li>
+    <li>Generated GDS-II, liberty & LEF views.</li>
+  </ul>
+</div>
 
-Across these courses, I have worked extensively on:
+---
 
-- **RISC-V processors & microarchitecture**  
-- **FPGA systems & embedded hardware**  
-- **VLSI design, CAD tools & process engineering**  
-- **Digital system design & hardware compilation**  
-- **DSP, machine learning & computational biology**
+## EE 677 — VLSI CAD (Autumn ’24)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Virendra Singh</p>
+  <ul>
+    <li>Built reversible logic circuits using <strong>PPRM</strong> expansions & Toffoli nets.</li>
+    <li>Used priority-based heuristics for expansion minimization.</li>
+    <li>Developed Verilog/EDIF-compatible logic simulator.</li>
+  </ul>
+</div>
 
-This page highlights the breadth and depth of my **hardware–systems–VLSI skillset**, built through rigorous IIT Bombay coursework and hands-on projects.
+---
 
+## EE 678 — Wavelets & Multirate DSP (Autumn ’24)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Vikram Gadre</p>
+  <ul>
+    <li>Integrated <strong>DWT/IDWT</strong> into U-Net for sharper edge retention.</li>
+    <li>Built dual wavelet pathways improving DICE & precision.</li>
+    <li>Experimented with wavelet bases under compute constraints.</li>
+  </ul>
+</div>
 
+---
+
+## EE 309 — CISC & RISC Processor Design (Spring ’24)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Virendra Singh</p>
+  <ul>
+    <li>Designed a pipelined RISC processor with hazards & forwarding.</li>
+    <li>Executed 26 instructions across six stages.</li>
+    <li>Built decoders, hazard logic & FPGA prototype on Max-10.</li>
+  </ul>
+</div>
+
+---
+
+## DH 607 — Computational Multi-Omics (Autumn ’25)
+<div class="tech-card">
+  <p><strong>Instructor:</strong> Prof. Saket Choudhary</p>
+  <ul>
+    <li>Implemented BWT, Needleman–Wunsch & suffix-based algorithms.</li>
+    <li>Built multi-omics pipelines (variants + miRNA networks).</li>
+    <li>Used <strong>Boltz docking</strong> to model mutation impacts.</li>
+  </ul>
+</div>
+
+---
+
+# <span class="tech-title">📚 Summary</span>
+<div class="tech-card">
+  <p>
+    My coursework builds a strong foundation across:
+  </p>
+  <ul>
+    <li><strong>Computer Architecture & RISC-V processors</strong></li>
+    <li><strong>VLSI design, CAD flows & semiconductor process engineering</strong></li>
+    <li><strong>FPGA systems & digital hardware design</strong></li>
+    <li><strong>DSP, ML-based architectures & computational biology</strong></li>
+  </ul>
+
+  <p>
+    These courses collectively shape my hardware–systems–VLSI skillset  
+    and complement my research & project work.
+  </p>
+</div>
+
+</div> <!-- tech-wrapper -->
