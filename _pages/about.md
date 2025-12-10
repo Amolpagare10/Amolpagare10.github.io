@@ -22,7 +22,6 @@ custom_css: about.css
   </p>
 </div>
 
----
 
 🌟 What I Love Working On
 <div class="tech-card">
