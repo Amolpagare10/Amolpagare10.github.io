@@ -115,7 +115,7 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 678 -->
-    <li><strong>EE 678 — Wavelets & Multirate DSP</strong><br>Introduces the fundamentals of wavelet transforms, key families like Haar and Daubechies, the uncertainty principle, and comparisons with STFT. Covers multilevel decomposition using high/low-pass filters and perfect reconstruction of signals from wavelet coefficients.</li>
+    <li><strong>EE 678 — Wavelets</strong><br>Introduces the fundamentals of wavelet transforms, key families like Haar and Daubechies, the uncertainty principle, and comparisons with STFT. Covers multilevel decomposition using high/low-pass filters and perfect reconstruction of signals from wavelet coefficients.</li>
     <details class="gh-collapse">
       <summary><strong>EE 678 — Repository Info</strong></summary>
       <div class="collapse-outer">
@@ -151,13 +151,20 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 671 -->
-    <li><strong>EE 671 — VLSI Design</strong><br>Short course summary here.</li>
+    <li><strong>EE 671 — VLSI Design</strong><br>This course covers CMOS device fundamentals, logic gate design, latches/flip-flops, arithmetic units, FSM-based control paths, and memory architectures ranging from ROMs to SRAM/DRAM. It also introduces multi-stage logic optimization, semi-custom VLSI design styles (PLAs, FPGAs), I/O circuits, packaging, and testing methodologies.</li>
     <details class="gh-collapse">
       <summary><strong>EE 671 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
+          <p>
+            This repository documents the complete EE671 VLSI Design coursework, covering CMOS inverter design, standard-cell layout, RTL synthesis, and full physical design using SkyWater 130A PDK, NGSpice, Magic, Netgen, and OpenLane.<br>
+            It includes simulations of inverter behavior, DRC/LVS/PEX-verified INVX1 layouts, and synthesis of a 16-bit Wallace Tree adder with functional verification and area/timing reports.<br>
+            The physical design flow for a 16-bit Brent–Kung adder is captured end-to-end, including CTS, routing, parasitic extraction, and signoff checks with final GDSII outputs.<br>
+            Project 1 involves developing and characterizing custom standard cells with schematic, layout, LEF/Liberty files, and timing/power analysis.<br>
+            Project 2 implements a Laplacian edge-detection filter in Verilog, integrating arithmetic blocks and taking the design from RTL to layout with waveform and performance analysis.<br>
+            Together, these works demonstrate proficiency across device-to-system VLSI workflows, from transistor-level design to full SoC-ready physical implementations.<br>
+          </p>
           <a href="YOUR_GITHUB_LINK/EE671" target="_blank">🔗 github.com/.../EE671</a>
         </div>
       </div>
