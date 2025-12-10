@@ -115,8 +115,7 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 678 -->
-    <li><strong>EE 678 — Wavelets & Multirate DSP</strong><br>Introduces the fundamentals of wavelet transforms, key families like Haar and Daubechies, the uncertainty principle, and comparisons with STFT. Covers multilevel decomposition using high/low-pass filters and perfect reconstruction of signals from wavelet coefficients.
-</li>
+    <li><strong>EE 678 — Wavelets & Multirate DSP</strong><br>Introduces the fundamentals of wavelet transforms, key families like Haar and Daubechies, the uncertainty principle, and comparisons with STFT. Covers multilevel decomposition using high/low-pass filters and perfect reconstruction of signals from wavelet coefficients.</li>
     <details class="gh-collapse">
       <summary><strong>EE 678 — Repository Info</strong></summary>
       <div class="collapse-outer">
@@ -134,14 +133,20 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 677 -->
-    <li><strong>EE 677 — VLSI CAD</strong><br>Short course summary here.</li>
+    <li><strong>EE 677 — VLSI CAD</strong><br>Covers the full VLSI design flow including logic minimization, fault detection algorithms, and physical design steps such as partitioning, placement, and routing. Emphasizes practical heuristics and fault-modeling techniques used to optimize circuit correctness, testability, and layout efficiency.</li>
     <details class="gh-collapse">
       <summary><strong>EE 677 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE677" target="_blank">🔗 github.com/.../EE677</a>
+          <p>
+            EE677 VLSI CAD involves building CAD tools for digital and quantum circuits, including data-flow graph generation, fault detection through time unrolling, and reversible circuit synthesis.<br>
+            The repository contains Python implementations for parsing netlists, analyzing circuit structure, and evaluating fault detectability in sequential logic.<br>
+            Assignments focus on understanding circuit dependencies, modeling stuck-at faults, and automating verification workflows used in practical VLSI CAD systems.<br>
+            The course project applies Positive Polarity Reed-Muller (PPRM) logic to synthesize reversible circuits, supporting quantum and low-power design methodologies.<br>
+            These tools demonstrate foundational concepts in graph analysis, fault modeling, Boolean algebra, and algorithmic circuit synthesis.<br>
+          </p>
+          <a href="https://github.com/Amolpagare10/EE677_VLSI_CAD" target="_blank">🔗 https://github.com/Amolpagare10/EE677_VLSI_CAD</a>
         </div>
       </div>
     </details>
