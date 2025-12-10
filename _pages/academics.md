@@ -39,14 +39,23 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 748 -->
-    <li><strong>EE 748 — Advanced Topics in Computer Architecture</strong><br>Short course summary here.</li>
+    <li><strong>EE 748 — Advanced Topics in Computer Architecture</strong><br>This research-intensive course builds on SMT and GPGPU architecture, diving into advanced topics such as heterogeneous ISAs, reconfigurable CMPs, TLB prefetching, fault-tolerant redundant execution, and look-ahead architectures through discussions of ISCA and MICRO papers. 
+    </li>
     <details class="gh-collapse">
       <summary><strong>EE 748 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE748" target="_blank">🔗 github.com/.../EE748</a>
+          <p>
+            This repository contains all coursework for <strong>EE748 — Advanced Topics in Computer Architecture</strong> 🧠, including assignments, research paper reviews, gem5 experiments, and a superscalar processor project.<br>  
+            Assignments cover SPEC benchmark analysis 📊, LLC sensitivity studies, and custom cache replacement policy design.<br>  
+            Further work explores RVCF-guided branch prediction 🔍 using leading/trailing core simulations in gem5 to improve accuracy and IPC.<br>  
+            The superscalar project implements an out-of-order processor in Verilog ⚙️ with register renaming, ROB, reservation stations, and full pipeline evaluation.<br>  
+            The course project proposes GPU optimizations by combining NL-DWF with register prefetching 🚀 to reduce RF conflicts and improve SIMD efficiency.<br>  
+            A comprehensive set of research paper reviews 📚 spans heterogeneous ISAs, fault tolerance, branch prediction, secure architectures, and cache innovations.<br>  
+            Together, this repository demonstrates extensive architectural analysis, simulation, and hardware-software co-design skills.<br>  
+          </p>
+          <a href="https://github.com/Amolpagare10/EE_748_Advanced_Topics_in_Computer_Architecture" target="_blank">🔗 https://github.com/Amolpagare10/EE_748_Advanced_Topics_in_Computer_Architecture</a>
         </div>
       </div>
     </details>
