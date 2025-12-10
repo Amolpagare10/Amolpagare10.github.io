@@ -254,4 +254,38 @@
   margin: 40px 0 10px 0;
 }
 
+/* ===========================================================
+   GITHUB STYLE CALLOUT BOXES
+   =========================================================== */
+
+.gh-box {
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 22px 0;
+  font-size: 16px;
+  line-height: 1.55;
+  border-left: 4px solid;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.gh-box a {
+  color: #4da5ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.gh-box a:hover {
+  text-decoration: underline;
+}
+
+.gh-info {
+  border-color: #1f6feb;
+  background: rgba(31, 111, 235, 0.15);
+}
+
+.gh-tip {
+  border-color: #6f7781;
+  background: rgba(110, 118, 129, 0.18);
+}
 

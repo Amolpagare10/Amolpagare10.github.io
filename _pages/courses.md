@@ -30,6 +30,18 @@ sduydsgd
 ddd
 </div>
 
+<div class="gh-box gh-info">
+  <strong>📦 Course Repository:</strong>  
+  View all code, reports, and project files here:<br>
+  <a href="YOUR_GITHUB_LINK" target="_blank">🔗 github.com/username/courses</a>
+</div>
+
+<div class="gh-box gh-tip">
+  <strong>📁 Course Work Collection:</strong><br>
+  Full repository of assignments, RTL, simulations & reports:<br>
+  <a href="YOUR_GITHUB_LINK" target="_blank">🔗 github.com/username/iitb-courses</a>
+</div>
+
 <div class="tech-hero">
   <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
   <div class="tech-card">
