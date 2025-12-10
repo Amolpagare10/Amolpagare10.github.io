@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 classes: wide
 custom_css: about.css
@@ -13,15 +13,12 @@ custom_css: about.css
 <div class="tech-wrapper">
 
 <div class="tech-hero">
-  <h1 class="tech-title">Hi, I'm <strong>Amol</strong> 👋</h1>
+  <h1 class="tech-title">I'm <strong>Amol</strong></h1>
   <p class="tech-subtitle">
-    EE Dual Degree student at <strong>IIT Bombay</strong>, working across  
-    <span class="chip-tag">Computer Architecture</span>,
-    <span class="chip-tag">VLSI Design</span>,
-    <span class="chip-tag">Embedded Systems</span>.
+    I'm a Fourth-Year Dual Degree student in the Electrical Engineering Department at <strong>IIT Bombay</strong> specializing in Electronic Systems.
+     My research interests are in <span class="chip-tag">Computer Architecture</span>, <span class="chip-tag">VLSI Design</span>, <span class="chip-tag">Embedded Systems</span>, with hands-on experience in <span class="chip-tag">FPGA</span> based SoC development and processor architecture!
   </p>
 </div>
-
 
 🌟 What I Love Working On
 <div class="tech-card">
