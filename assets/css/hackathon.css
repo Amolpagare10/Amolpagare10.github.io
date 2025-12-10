@@ -330,21 +330,21 @@
    COLLAPSIBLE ANIMATION
    =========================================================== */
 
-/* Smooth collapsing animation (slow + smooth) */
+/* SMOOTH, CONSISTENT COLLAPSE ANIMATION */
 .collapse-outer {
   overflow: hidden;
   max-height: 0;
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-6px);
   transition:
-    max-height 0.85s ease,
-    opacity 0.65s ease,
-    transform 0.65s ease;
+    max-height 0.9s ease,
+    opacity 0.6s ease,
+    transform 0.6s ease;
 }
 
-/* When <details> is open → expand content */
+/* When details opens */
 .gh-collapse[open] .collapse-outer {
-  max-height: 900px; /* large enough to fit content */
+  max-height: 1200px; /* large enough for any repo block */
   opacity: 1;
   transform: translateY(0);
 }
