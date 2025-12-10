@@ -41,7 +41,6 @@ custom_css: about.css
 
   <details class="gh-collapse">
   <summary>
-    <span class="arrow">▶</span>
     <strong>IBM Quantum Challenge — Repository Info</strong>
   </summary>
 
@@ -53,6 +52,30 @@ custom_css: about.css
     </a>
   </div>
 </details>
+
+<div class="gh-box gh-info">
+  <strong>📦 IBM Quantum Challenge Repository</strong><br>
+  All circuits, Qiskit notebooks, DD-pass experiments & VQC code:<br>
+  <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">🔗 github.com/.../IBM-Quantum-Challenge</a>
+</div>
+
+<div class="gh-box gh-tip">
+  <strong>📁 Indian Case Challenge — IIT Kharagpur</strong><br>
+  Market models, GPT Store strategy solutions, and feasibility analysis:<br>
+  <a href="YOUR_GITHUB_LINK/Indian-Case-Challenge" target="_blank">🔗 github.com/.../Indian-Case-Challenge</a>
+</div>
+
+<div class="gh-box gh-info">
+  <strong>📊 Algoswarm — Quanthive</strong><br>
+  ML models, backtesting scripts & alpha-generation pipeline:<br>
+  <a href="YOUR_GITHUB_LINK/Algoswarm" target="_blank">🔗 github.com/.../Algoswarm</a>
+</div>
+
+<div class="gh-box gh-tip">
+  <strong>📂 Bona Consilia — StrategyCo. Global</strong><br>
+  Full case analysis, slide decks, and structured frameworks:<br>
+  <a href="YOUR_GITHUB_LINK/Bona-Consilia" target="_blank">🔗 github.com/.../Bona-Consilia</a>
+</div>
 
   
 </div>
