@@ -27,7 +27,7 @@ custom_css: academics.css
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
           <p>
-            This repository contains all coursework for <strong>EE789: Algorithmic Design of Digital Systems</strong> 📘, including the Final Project, Midsem Assignment, and Mini Project.  
+            This repository contains all coursework for <strong>EE789: Algorithmic Design of Digital Systems</strong> 📘, including the Final Project, Midsem Assignment, and Mini Project.<br>  
             The Final Project implements three matrix multiplication architectures ⚙️—unrolled dot product, block-parallel computation, and rank-1 decomposition—using Algorithmic Assembly with detailed analysis.<br>  
             The Midsem Assignment focuses on VHDL-based arithmetic units ➗ such as multipliers, dividers, and square-root units, complete with Vivado testbenches and reports.<br>  
             The Mini Project builds a <strong>4×4 Output-Queued Switch</strong> 🔀 featuring fair arbitration, packet routing, and structured queuing using AHIR dataflow principles.<br>  
