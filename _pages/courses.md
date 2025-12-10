@@ -12,15 +12,18 @@ custom_css: courses.css
 
 <div class="tech-wrapper">
 
-<h1 class="tech-title">📘 Courses & Academic Work</h1>
-<p class="tech-subtitle">
-  A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
-  <span class="chip-tag">Computer Architecture</span>
-  <span class="chip-tag">VLSI Design</span>
-  <span class="chip-tag">CAD Tools</span>
-  <span class="chip-tag">Embedded Systems</span>
-  <span class="chip-tag">DSP & ML</span>
-</p>
+<div class="tech-hero">
+  <h1 class="tech-title">📘 Courses & <strong>Academic Work</strong>
+  </h1>
+  <p class="tech-subtitle">
+    A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
+    <span class="chip-tag">Computer Architecture</span>
+    <span class="chip-tag">VLSI Design</span>
+    <span class="chip-tag">CAD Tools</span>
+    <span class="chip-tag">Embedded Systems</span>
+    <span class="chip-tag">DSP & ML</span>
+  </p>
+</div>
 
 ## <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
 <div class="tech-card">
