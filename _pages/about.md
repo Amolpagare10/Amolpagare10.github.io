@@ -22,11 +22,8 @@ custom_css: about.css
   </p>
 </div>
 
-<div class="tech-hero">
-  <h2 class="tech-title">Hackathons & Competitions 🏆</h2>
-</div>
-
 <div class="tech-card">
+  <h3 class="tech-title">Hackathons & Competitions 🏆</h3>
   <ul>
     <li><strong>IBM Quantum Challenge ’24</strong> — Completed all labs; built Qiskit circuits, optimized passes (DD), and deployed a VQC on IBM Quantum hardware.</li>
     <li><strong>Indian Case Challenge — IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control measures, and feasibility for onboarding an AI chip company.</li>
