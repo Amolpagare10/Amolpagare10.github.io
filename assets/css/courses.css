@@ -232,6 +232,13 @@
   margin-bottom: 12px;
 }
 
+.section-title-dark {
+  font-size: 28px;
+  font-weight: 700;
+  color: #7bbdff;
+  text-shadow: 0 0 12px #4da0ff66;
+  margin-bottom: 12px;
+}
 /* ===========================================================
    7. RESPONSIVE TWEAKS
    =========================================================== */

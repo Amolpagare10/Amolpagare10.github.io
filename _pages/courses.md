@@ -43,7 +43,7 @@ ddd
 </div>
 
 <div class="tech-hero">
-  <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
+  <span class="section-title-dark">EE 451 — Supervised Research (Autumn ’25)</span>
   <div class="tech-card">
     <p><strong>Advisor:</strong> Prof. Laxmeesha Somappa</p>
     <ul>
