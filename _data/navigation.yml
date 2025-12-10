@@ -11,6 +11,9 @@ main:
   - title: "Resume"
     url: /files/Amol_Pagare_Resume.pdf
 
+  - title: "Hackathons"
+    url: /hackathons/
+
   - title: "Miscellaneous"
     url: /miscellaneous/
 
