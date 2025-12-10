@@ -15,13 +15,13 @@ custom_css: courses.css
 <div class="tech-hero">
   <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1>
   <p class="tech-subtitle">
-    A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
-    <span class="chip-tag">Computer Architecture</span><br>
-    <span class="chip-tag">VLSI Design</span><br>
-    <span class="chip-tag">CAD Tools</span><br> 
-    <span class="chip-tag">Embedded Systems</span><br>
-    <span class="chip-tag">DSP & ML</span>
-  </p>
+    A curated collection of my coursework at <strong>IIT Bombay</strong>, covering  
+  <ul class="tech-subtitle">
+    <li><span class="chip-tag">Computer Architecture</span></li>
+    <li><span class="chip-tag">Embedded Systems</span></li>
+    <li><span class="chip-tag">VLSI Design</span></li>
+    <li><span class="chip-tag">FPGA based SoC development</span></li>
+  </ul>
 </div> <!-- tech-hero -->
 </div> <!-- tech-wrapper -->
 
