@@ -79,6 +79,7 @@ custom_css: about.css
         </p>
         <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
           🔗 https://devfolio.co/projects/ice-bathe-db8c
+        </a><br>
         <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
           🔗 https://github.com/Amolpagare10/Algoswarn_Quanthive
         </a>
