@@ -16,7 +16,7 @@ custom_css: about.css
   <h1 class="tech-title">Hi! I'm <strong>Amol</strong> 👋🏻</h1>
 
   <p class="tech-subtitle">
-    I'm a Fourth-Year Dual Degree student in the Electrical Engineering Department at <strong>IIT Bombay</strong> specializing in Electronic Systems.
+    I'm a Fourth-Year Dual Degree student in the Electrical Engineering Department at <strong>IIT Bombay</strong> specializing in <strong>Electronic Systems</strong>.
   </p>
 
   <p class="tech-subtitle">
