@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 custom_css: about.css
 ---
-
+![Illustration of combining vision and language modalities](/images/riscv.jpg){: .align-right width="300px"}
 <div class="tech-bg"></div>      
 <div class="circuit-lines"></div> 
 
@@ -20,25 +20,15 @@ custom_css: about.css
   </p>
 
   <p class="tech-subtitle">
-  My research interests are:
-</p>
+    My research interests are:
+  </p>
 
-<div class="interest-flex">
-  
-  <!-- Left Column: Interests List -->
-  <ul class="tech-subtitle interest-list">
+  <ul class="tech-subtitle">
     <li><span class="chip-tag">Computer Architecture</span></li>
     <li><span class="chip-tag">Embedded Systems</span></li>
     <li><span class="chip-tag">VLSI Design</span></li>
     <li><span class="chip-tag">FPGA based SoC development</span></li>
   </ul>
-
-  <!-- Right Column: Image -->
-  <div class="interest-image">
-    <img src="/images/riscv.png" alt="Interests Illustration">
-  </div>
-
-</div>
 
   <h3 class="tech-title">Hackathons & Competitions 🏆</h3>
 
@@ -48,5 +38,5 @@ custom_css: about.css
     <li><strong>Algoswarm, Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
   </ul>
-
+  
 </div>
