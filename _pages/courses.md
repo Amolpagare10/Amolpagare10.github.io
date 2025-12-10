@@ -12,7 +12,7 @@ custom_css: courses.css
 
 <div class="tech-wrapper">
 
-# <span class="tech-title">📘 Courses & Academic Work</span>
+ <span class="tech-title">📘 Courses & Academic Work</span>
 <p class="tech-subtitle">
   A curated collection of coursework at <strong>IIT Bombay</strong>, covering  
   <span class="chip-tag">Computer Architecture</span>
@@ -21,8 +21,6 @@ custom_css: courses.css
   <span class="chip-tag">Embedded Systems</span>
   <span class="chip-tag">DSP & ML</span>
 </p>
-
----
 
 ## <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
 <div class="tech-card">
@@ -34,7 +32,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 669 — VLSI Technology (Autumn ’25)
 <div class="tech-card">
@@ -48,7 +45,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 709 — Testing & Verification of VLSI Circuits (Autumn ’25)
 <div class="tech-card">
@@ -62,7 +58,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 748 — Advanced Topics in Computer Architecture (Autumn ’25)
 <div class="tech-card">
@@ -75,7 +70,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 789 — Algorithmic Design of Digital Systems (Spring ’25)
 <div class="tech-card">
@@ -89,7 +83,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 705 — VLSI Design Lab (Spring ’25)
 <div class="tech-card">
@@ -102,7 +95,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 739 — Processor Design (Spring ’25)
 <div class="tech-card">
@@ -115,7 +107,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 344 — Electronic Design Lab (Spring ’25)
 <div class="tech-card">
@@ -128,7 +119,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 671 — VLSI Design (Autumn ’24)
 <div class="tech-card">
@@ -141,7 +131,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 677 — VLSI CAD (Autumn ’24)
 <div class="tech-card">
@@ -153,7 +142,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 678 — Wavelets & Multirate DSP (Autumn ’24)
 <div class="tech-card">
@@ -165,7 +153,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## EE 309 — CISC & RISC Processor Design (Spring ’24)
 <div class="tech-card">
@@ -177,7 +164,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 ## DH 607 — Computational Multi-Omics (Autumn ’25)
 <div class="tech-card">
@@ -189,7 +175,6 @@ custom_css: courses.css
   </ul>
 </div>
 
----
 
 # <span class="tech-title">📚 Summary</span>
 <div class="tech-card">
