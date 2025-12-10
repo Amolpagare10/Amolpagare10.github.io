@@ -22,8 +22,8 @@ custom_css: about.css
   <p class="tech-subtitle">
     My research interests are:
   </p>
-  
-  <ul>
+
+  <ul class="tech-subtitle">
     <li><span class="chip-tag">Computer Architecture</span></li>
     <li><span class="chip-tag">Embedded Systems</span></li>
     <li><span class="chip-tag">VLSI Design</span></li>
