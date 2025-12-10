@@ -22,7 +22,8 @@ custom_css: courses.css
   <span class="chip-tag">DSP & ML</span>
 </p>
 
-## <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span>
+<!-- ## <span class="section-title">EE 451 — Supervised Research (Autumn ’25)</span> -->
+## EE 451 — Supervised Research (Autumn ’25)
 <div class="tech-card">
   <p><strong>Advisor:</strong> Prof. Laxmeesha Somappa</p>
   <ul>

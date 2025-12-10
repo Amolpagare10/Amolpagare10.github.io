@@ -229,3 +229,11 @@
     padding: 20px;
   }
 }
+
+.tech-wrapper h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #dff3ff;
+  text-shadow: 0 0 12px #4da0ff66;
+  margin: 40px 0 10px 0;
+}
