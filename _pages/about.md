@@ -69,7 +69,7 @@ custom_css: about.css
     <li><strong>Algoswarm, Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
     <details class="gh-collapse">
       <summary>
-        <strong>3 IBM Quantum Challenge — Repository Info</strong>
+        <strong>Team Finixitron - ICE BATHE — Repository Info</strong>
       </summary>
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
