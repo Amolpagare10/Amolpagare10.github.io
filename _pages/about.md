@@ -17,8 +17,8 @@ custom_css: about.css
   <p class="tech-subtitle">
     I'm a Fourth-Year Dual Degree student in the Electrical Engineering Department at <strong>IIT Bombay</strong> specializing in Electronic Systems.
   </p>
-  <p>
-     My research interests are in <span class="chip-tag">Computer Architecture</span>, <span class="chip-tag">VLSI Design</span>, <span class="chip-tag">Embedded Systems</span>, with hands-on experience in <span class="chip-tag">FPGA</span> based SoC development!
+  <p class="tech-subtitle">
+     My research interests are in <span class="chip-tag">Computer Architecture</span>, <span class="chip-tag">Embedded Systems</span>, <span class="chip-tag">VLSI Design</span>, with hands-on experience in <span class="chip-tag">FPGA</span> based SoC development!
   </p>
 </div>
 
