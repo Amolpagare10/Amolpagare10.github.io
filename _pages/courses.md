@@ -22,6 +22,6 @@ custom_css: courses.css
     <li><span class="chip-tag">VLSI Design</span></li>
     <li><span class="chip-tag">FPGA based SoC development</span></li>
   </ul>
-</div> <!-- tech-hero -->
-</div> <!-- tech-wrapper -->
+</div> 
+
 
