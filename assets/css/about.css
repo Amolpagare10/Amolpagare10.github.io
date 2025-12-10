@@ -284,3 +284,23 @@
 .collapse-body {
   margin-top: 12px;
 }
+
+/* FORCE THE CONTENT INSIDE COLLAPSIBLE GH-BOX TO BE BLACK */
+.gh-collapse .gh-box {
+  background: rgba(255, 255, 255, 0.95) !important; /* clean white card */
+  color: #000 !important;                           /* main text black */
+  border-left-color: #1f6feb !important;            /* GitHub blue */
+}
+
+/* Make all text inside black */
+.gh-collapse .gh-box p,
+.gh-collapse .gh-box strong,
+.gh-collapse .gh-box a,
+.gh-collapse .gh-box br {
+  color: #000 !important;
+}
+
+/* Links: black by default, GitHub blue on hover */
+.gh-collapse .gh-box a:hover {
+  color: #1f6feb !important;
+}

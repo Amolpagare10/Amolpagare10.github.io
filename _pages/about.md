@@ -91,7 +91,6 @@ custom_css: about.css
     <summary>
       <strong>IBM Quantum Challenge — Repository Info</strong>
     </summary>
-
     <div class="gh-box gh-info collapse-body">
       <p><strong>📦 Repository:</strong></p>
       Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
