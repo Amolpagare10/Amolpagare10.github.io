@@ -222,7 +222,7 @@
 
 /* Right column (image) */
 .interest-image img {
-  width: 180px;              /* adjust size here */
+  width: 300px;              /* adjust size here */
   border-radius: 14px;
   box-shadow: 0 0 20px rgba(0, 150, 255, 0.25);
   border: 1px solid rgba(120, 180, 255, 0.25);
