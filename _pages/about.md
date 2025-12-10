@@ -20,17 +20,25 @@ custom_css: about.css
   </p>
 
   <p class="tech-subtitle">
-    My research interests are:
-  </p>
+  My research interests are:
+</p>
 
-  ![RISCV Processor](/images/riscv.png){: .align-right width="300px"}
-
-  <ul class="tech-subtitle">
+<div class="interest-flex">
+  
+  <!-- Left Column: Interests List -->
+  <ul class="tech-subtitle interest-list">
     <li><span class="chip-tag">Computer Architecture</span></li>
     <li><span class="chip-tag">Embedded Systems</span></li>
     <li><span class="chip-tag">VLSI Design</span></li>
     <li><span class="chip-tag">FPGA based SoC development</span></li>
   </ul>
+
+  <!-- Right Column: Image -->
+  <div class="interest-image">
+    <img src="/images/riscv.png" alt="Riscv Processor">
+  </div>
+
+</div>
 
   <h3 class="tech-title">Hackathons & Competitions 🏆</h3>
 
