@@ -115,14 +115,21 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 678 -->
-    <li><strong>EE 678 — Wavelets & Multirate DSP</strong><br>Short course summary here.</li>
+    <li><strong>EE 678 — Wavelets & Multirate DSP</strong><br>Introduces the fundamentals of wavelet transforms, key families like Haar and Daubechies, the uncertainty principle, and comparisons with STFT. Covers multilevel decomposition using high/low-pass filters and perfect reconstruction of signals from wavelet coefficients.
+</li>
     <details class="gh-collapse">
       <summary><strong>EE 678 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE678" target="_blank">🔗 github.com/.../EE678</a>
+          <p>
+            This repository contains coursework deliverables for EE678 Wavelets, focusing on applying wavelet transforms to medical image analysis and MRI-based tumor detection. 🧠📊 <br>
+            The mid-semester work integrates wavelet features into CNN pipelines for improved tumor detection, supported by Python code and a detailed report. <br>
+            The end-semester project explores wavelet-based deep learning architectures for MRI segmentation, enhancing feature extraction and boundary precision. <br>
+            Both code modules include preprocessing scripts, wavelet utilities, model architectures, and complete training and evaluation workflows. 💻🔍 <br>
+            Comprehensive reports document the methodology, results, and comparisons across both stages of the course. 📑✨  
+          </p>
+          <a href="https://github.com/Amolpagare10/EE678_Wavelets" target="_blank">🔗 https://github.com/Amolpagare10/EE678_Wavelets</a>
         </div>
       </div>
     </details>
