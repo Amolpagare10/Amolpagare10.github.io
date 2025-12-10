@@ -97,7 +97,7 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 705 -->
-    <li><strong>EE 705 — VLSI Design Lab</strong><br>Short course summary here.</li>
+    <li><strong>EE 705 — VLSI Design Lab</strong><br>EE705 focuses on practical VLSI design through Verilog-based implementation of arithmetic units, memory systems, and a complete RISC-V processor pipeline. The course emphasizes full RTL-to-FPGA flow, including simulation, synthesis, debugging, and SoC integration using Vivado and PYNQ hardware.</li>
     <details class="gh-collapse">
       <summary><strong>EE 705 — Repository Info</strong></summary>
       <div class="collapse-outer">
