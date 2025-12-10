@@ -8,7 +8,7 @@ custom_css: courses.css
 ---
 
 <div class="tech-bg"></div>
-<div class="circuit-lines"></div>
+<!-- <div class="circuit-lines"></div> -->
 
 <div class="tech-wrapper">
 
