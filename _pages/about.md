@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 custom_css: about.css
 ---
-![Illustration of combining vision and language modalities](/images/riscv.jpg){: .align-right width="300px"}
+![Illustration of combining vision and language modalities](/images/riscv.png){: .align-right width="300px"}
 <div class="tech-bg"></div>      
 <div class="circuit-lines"></div> 
 
