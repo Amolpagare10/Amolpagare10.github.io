@@ -19,12 +19,12 @@ custom_css: courses.css
     A curated collection of my coursework at <strong>IIT Bombay</strong>, covering:
   </p>
 
-  <ul class="tech-subtitle">
+  <!-- <ul class="tech-subtitle">
     <li><span class="chip-tag">Computer Architecture</span></li>
     <li><span class="chip-tag">Embedded Systems</span></li>
     <li><span class="chip-tag">VLSI Design</span></li>
     <li><span class="chip-tag">FPGA based SoC Development</span></li>
-  </ul>
+  </ul> -->
 
   <div class="gh-box gh-info">
     <strong>📦 Course Repository Index:</strong><br>
