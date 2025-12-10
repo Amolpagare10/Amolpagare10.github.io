@@ -39,12 +39,16 @@ custom_css: about.css
         <strong>IBM Quantum Challenge — Repository Info</strong>
       </summary>
       <div class="gh-box gh-info collapse-body">
-        <p><strong>📦 Repository:</strong></p>
-        Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
-        <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
-          🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
-        </a>
-      </div>
+      <p><strong>📦 Repository:</strong></p>
+      <p>
+        <strong>🌐 IBM Quantum Challenge 2024</strong> — A global competition introducing participants to Qiskit 1.0, quantum circuits, AI-powered transpilation, and VQC-based quantum machine learning on real IBM Quantum hardware.
+        <br>
+        <strong>Key Learnings:</strong> Quantum basics (qubits, superposition), Qiskit 1.0 features, transpilation & circuit optimization, AI-driven improvements, and implementing a Variational Quantum Classifier (VQC).
+      </p>
+      <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
+        🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
+      </a>
+    </div>
     </details>  
     <li><strong>Indian Case Challenge, IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control systems, and evaluated AI chip company feasibility.</li>
     <details class="gh-collapse">
