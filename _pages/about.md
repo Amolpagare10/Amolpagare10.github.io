@@ -74,8 +74,10 @@ custom_css: about.css
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
         Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
-        <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">
-          🔗 github.com/.../IBM-Quantum-Challenge
+        <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
+          🔗 https://devfolio.co/projects/ice-bathe-db8c
+        <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
+          🔗 https://github.com/Amolpagare10/Algoswarn_Quanthive
         </a>
       </div>
     </details>  
