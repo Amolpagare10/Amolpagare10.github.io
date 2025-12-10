@@ -36,13 +36,13 @@ custom_css: about.css
     <li><strong>IBM Quantum Challenge</strong> — Achieved the IBM Quantum Challenge 2024 certification by successfully completing 5 labs within a timed environment.</li>
     <details class="gh-collapse">
       <summary>
-        <strong>1 IBM Quantum Challenge — Repository Info</strong>
+        <strong>IBM Quantum Challenge — Repository Info</strong>
       </summary>
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
         Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
-        <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">
-          🔗 github.com/.../IBM-Quantum-Challenge
+        <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
+          🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
         </a>
       </div>
     </details>  
