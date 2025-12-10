@@ -88,7 +88,7 @@ custom_css: about.css
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
   </ul>
 
-  <details class="gh-collapse">
+  <!-- <details class="gh-collapse">
     <summary>
       <strong>IBM Quantum Challenge — Repository Info</strong>
     </summary>
@@ -99,9 +99,5 @@ custom_css: about.css
         🔗 github.com/.../IBM-Quantum-Challenge
       </a>
     </div>
-  </details>  
-
-
-
-  
+  </details>   -->
 </div>
