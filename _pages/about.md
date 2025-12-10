@@ -33,7 +33,7 @@ custom_css: about.css
   <h3 class="tech-title">Hackathons & Competitions 🏆</h3>
 
   <ul class="tech-subtitle">
-    <li><strong>IBM Quantum Challenge ’24</strong> — Completed all labs; built Qiskit circuits, optimized DD passes, and deployed a VQC on IBM Quantum hardware.</li>
+    <li><strong>IBM Quantum Challenge ’24</strong> — Achieved the IBM Quantum Challenge 2024 certification by successfully completing 5 labs within a timed environment.</li>
     <li><strong>Indian Case Challenge — IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control systems, and evaluated AI chip company feasibility.</li>
     <li><strong>Algoswarm — Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
     <li><strong>Bona Consilia Challenge — StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
