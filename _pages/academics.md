@@ -60,14 +60,21 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 739 -->
-    <li><strong>EE 739 — Processor Design</strong><br>Short course summary here.</li>
+    <li><strong>EE 739 — Processor Design</strong><br>Covers the evolution of computers, microprocessor architecture, instruction execution (FSMs, pipelines), memory systems, caching, branch prediction, and superscalar/VLIW execution. Also includes virtual memory, process scheduling, cache behavior, parallelism, and multithreading for modern high-performance processor design.
+</li>
     <details class="gh-collapse">
       <summary><strong>EE 739 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE739" target="_blank">🔗 github.com/.../EE739</a>
+          <p>
+            This repository for <strong>EE739 — Processor Design</strong> contains complete implementations of both an Out-of-Order and an In-Order Superscalar Processor, built using Verilog and VHDL 🚀.<br>  
+            The OoO design features reservation stations, ROB, unified register file, ALUs, LSUs, hazard control, and dual-issue execution, supporting in-order commit and broadcast forwarding.<br>  
+            The repository includes full datapaths, controller logic, fetch/decode stages, register files, load/store buffers, and testbenches 📁.<br>  
+            The In-Order superscalar processor implements parallel pipelines, scoreboard-based hazard detection, modular execution stages, and ISA-compliant components 🔧.<br>  
+            Together, these designs demonstrate strong understanding of pipelined execution, register renaming, scheduling, hazard management, and ILP in modern processor architectures 🧠.
+          </p>
+          <a href="https://github.com/Amolpagare10/EE739_Processor_Design" target="_blank">🔗 https://github.com/Amolpagare10/EE739_Processor_Design</a>
         </div>
       </div>
     </details>
