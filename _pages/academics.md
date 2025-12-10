@@ -201,14 +201,21 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 344 -->
-    <li><strong>EE 344 — Electronic Design Lab</strong><br>Short course summary here.</li>
+    <li><strong>EE 344 — Electronic Design Lab</strong><br>Projects in this lab course span various areas within the electrical engineering domain such as electronic systems, computational processing, IOT, power systems, control systems with the objective of delivering a working prototype by the semester end</li>
     <details class="gh-collapse">
       <summary><strong>EE 344 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/EE344" target="_blank">🔗 github.com/.../EE344</a>
+          <p>
+            The EcoSync 8X repository showcases a dsPIC33A-based ultrasonic guided-wave structural health monitoring system with an 8-channel configurable Tx/Rx interface and wireless acquisition using ESP32.<br>
+            It contains complete firmware for signal generation, command protocols, and Wi-Fi communication, along with full PCB schematics, layouts, component libraries, and laser-cut enclosure files.<br>
+            The system supports high-voltage Hanning-windowed pulse generation, precision sensing with instrumentation amplifiers, and real-time visualization through a custom GUI.<br>
+            The documentation includes the bill of materials, step-by-step programming instructions, hardware design workflow, and integration details.<br>
+            Challenges such as incomplete ADC functionality and partial Wi-Fi–MCU interfacing are described, alongside future plans for GUI enhancements, DI-map improvements, SRAM expansion, and full wireless pipeline completion.<br>
+            Overall, it demonstrates a complete embedded hardware–software development cycle from concept to prototype.  
+          </p>
+          <a href="https://github.com/Amolpagare10/EE344_Electronic_Design_lab" target="_blank">🔗 https://github.com/Amolpagare10/EE344_Electronic_Design_lab</a>
         </div>
       </div>
     </details>
@@ -225,14 +232,21 @@ custom_css: academics.css
       </div>
     </details>
     <!-- DH 607 -->
-    <li><strong>DH 607 — Introduction to Computational Multi-Omics</strong><br>Short course summary here.</li>
+    <li><strong>DH 607 — Introduction to Computational Multi-Omics</strong><br>The course bridges biology, statistics, and computing to teach how modern sequencing technologies generate high-dimensional genomic data and how mathematical models help extract meaningful biological insights. It covers sequence alignment, gene expression analysis, dimensionality reduction, statistical modeling of multi-omics data, and practical skills for exploratory analysis, visualization, and reproducible bioinformatics workflows.</li>
     <details class="gh-collapse">
       <summary><strong>DH 607 — Repository Info</strong></summary>
       <div class="collapse-outer">
         <div class="gh-box gh-info collapse-body">
           <p><strong>📦 Repository:</strong></p>
-          <p>Description of repo + main work done.</p>
-          <a href="YOUR_GITHUB_LINK/DH607" target="_blank">🔗 github.com/.../DH607</a>
+          <p>
+            This repository contains assignments and a final project for DH 607, covering probability, statistics, alignment algorithms, HMMs, and RNA-Seq quantification for analyzing real biological datasets.<br>
+            The coursework builds core skills in quantitative biology through topics such as PCR modeling, BLAST scoring, BWT and suffix structures, and transcript-level expression analysis.<br>
+            Assignments include probabilistic reasoning, sequence alignment, string algorithms, hidden Markov models, and normalization methods like RPKM and TPM.<br>
+            The final project performs a multi-omics investigation of Mycobacterium tuberculosis, integrating genomic, transcriptomic, and miRNA data to study disease mechanisms.<br>
+            It analyzes host immune activation signatures, MTB drug-resistance mutations, and structural modeling of KatG and EmbB variants to explain phenotype-level antibiotic resistance.<br>
+            Overall, the repository demonstrates a full pipeline of computational biology techniques, from raw sequencing concepts to advanced multi-omics interpretation.
+          </p>
+          <a href="https://github.com/Amolpagare10/DH_607_Intro_to_Computational_Multiomnics" target="_blank">🔗 https://github.com/Amolpagare10/DH_607_Intro_to_Computational_Multiomnics</a>
         </div>
       </div>
     </details>
