@@ -314,3 +314,11 @@
   transform: translateY(-2px);
 }
 
+.course-list li {
+  margin-bottom: 8px;
+}
+.course-list .chip-tag {
+  display: inline-block;
+  text-decoration: none;
+}
+
