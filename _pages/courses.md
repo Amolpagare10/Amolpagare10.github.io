@@ -13,7 +13,7 @@ custom_css: courses.css
 <div class="tech-wrapper">
 
 <div class="tech-hero">
-  <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1>
+  <h1 class="tech-title"><strong>Academic Work</strong> 📘</h1>
 
   <p class="tech-subtitle">
     A curated collection of my coursework at <strong>IIT Bombay</strong>.
