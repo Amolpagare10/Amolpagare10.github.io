@@ -13,7 +13,7 @@ custom_css: about.css
 <div class="tech-wrapper">
 
 <div class="tech-hero">
-  <h1 class="tech-title">I'm <strong>Amol</strong></h1>
+  <h1 class="tech-title">Hi! I'm <strong>Amol</strong> 👋🏻</h1>
   <p class="tech-subtitle">
     I'm a Fourth-Year Dual Degree student in the Electrical Engineering Department at <strong>IIT Bombay</strong> specializing in Electronic Systems.
   </p>
@@ -22,40 +22,19 @@ custom_css: about.css
   </p>
 </div>
 
-🌟 What I Love Working On
+<div class="tech-hero">
+  <h2 class="tech-title">Hackathons & Competitions 🏆</h2>
+</div>
+
 <div class="tech-card">
   <ul>
-    <li>Out-of-Order superscalar processor design</li>
-    <li>RISC-V SoC development</li>
-    <li>VLSI process + physical design flows</li>
-    <li>FPGA + embedded systems</li>
+    <li><strong>IBM Quantum Challenge ’24</strong> — Completed all labs; built Qiskit circuits, optimized passes (DD), and deployed a VQC on IBM Quantum hardware.</li>
+
+    <li><strong>Indian Case Challenge — IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control measures, and feasibility for onboarding an AI chip company.</li>
+
+    <li><strong>Algoswarm — Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> via backtesting.</li>
+
+    <li><strong>Bona Consilia Challenge — StrategyCo. Global</strong> — Solved a real-world consulting case with structured analysis and actionable recommendations.</li>
   </ul>
 </div>
-
-🌱 Currently Building
-<div class="tech-card">
-  <ul>
-    <li>Linux on a custom RISC-V SoC</li>
-    <li>OoO pipelines in Verilog</li>
-    <li>EcoSync-8X SHM system</li>
-  </ul>
-</div>
-
-🎯 Outside Academics
-<div class="tech-card">
-  <ul>
-    <li>Badminton 🏸</li>
-    <li>Quant finance & algorithmic trading 📈</li>
-    <li>Electronics tinkering 🔧</li>
-  </ul>
-</div>
-
-🚀 Goals
-<div class="tech-card">
-  <p>
-    Looking for opportunities in Processor Design, VLSI, CAD Tools, and Computer Architecture Research.
-  </p>
-</div>
-
-</div> <!-- tech-wrapper -->
 
