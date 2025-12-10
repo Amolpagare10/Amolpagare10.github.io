@@ -18,11 +18,6 @@ custom_css: courses.css
   <p class="tech-subtitle">
     A curated collection of my coursework at <strong>IIT Bombay</strong>.
   </p>
-
-  <!-- ================================ -->
-  <!--   COURSE CHIP-TAG LIST (DESC)   -->
-  <!-- ================================ -->
-
   <ul class="tech-subtitle course-list">
     <li><a href="https://github.com/Amolpagare10/EE789_Algorithmic_Design_of_Digital_Systems" target="_blank" class="chip-tag">EE 789 — Algorithmic Design of Digital Systems</a></li>
     <li><a href="https://github.com/Amolpagare10/EE_748_Advanced_Topics_in_Computer_Architecture" target="_blank" class="chip-tag">EE 748 — 	Advanced Topics in Computer Architecture</a></li>
