@@ -42,7 +42,7 @@ ddd
   <a href="YOUR_GITHUB_LINK" target="_blank">🔗 github.com/username/iitb-courses</a>
 </div>
 
-<div class="tech-hero">
+<!-- <div class="tech-hero"> -->
   <span class="section-title-dark">EE 451 — Supervised Research (Autumn ’25)</span>
   <div class="tech-card">
     <p><strong>Advisor:</strong> Prof. Laxmeesha Somappa</p>
@@ -52,7 +52,7 @@ ddd
       <li><strong>Successfully booted Linux</strong> on the SoC running on Pynq-Z2.</li>
     </ul>
   </div>
-</div>
+<!-- </div> -->
 
 <span class="section-title">EE 669 — VLSI Technology (Autumn ’25)</span>
 <div class="tech-card">
