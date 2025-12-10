@@ -53,13 +53,16 @@ custom_css: about.css
     <li><strong>Indian Case Challenge, IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control systems, and evaluated AI chip company feasibility.</li>
     <details class="gh-collapse">
       <summary>
-        <strong>2 IBM Quantum Challenge — Repository Info</strong>
+        <strong>Indian Case Challenge — Repository Info</strong>
       </summary>
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
-        Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
-        <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">
-          🔗 github.com/.../IBM-Quantum-Challenge
+        <p>
+          🇮🇳 The Indian Case Challenge (ICC) is IIT Kharagpur’s flagship national strategy competition, where top teams solve high-impact real-world business problems.<br>
+          🚀 Team Gyandu (IIT Bombay) crafted strategic, financial, and operational solutions to scale and sustain the GPT Builder and GPT Store ecosystem.
+        </p>
+          <a href="https://github.com/Amolpagare10/ICC_IIT_Kharagpur" target="_blank">
+          🔗 https://github.com/Amolpagare10/ICC_IIT_Kharagpur
         </a>
       </div>
     </details>  
@@ -77,18 +80,6 @@ custom_css: about.css
       </div>
     </details>  
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
-    <details class="gh-collapse">
-      <summary>
-        <strong>4 IBM Quantum Challenge — Repository Info</strong>
-      </summary>
-      <div class="gh-box gh-info collapse-body">
-        <p><strong>📦 Repository:</strong></p>
-        Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
-        <a href="YOUR_GITHUB_LINK/IBM-Quantum-Challenge" target="_blank">
-          🔗 github.com/.../IBM-Quantum-Challenge
-        </a>
-      </div>
-    </details>  
   </ul>
 
   <details class="gh-collapse">
