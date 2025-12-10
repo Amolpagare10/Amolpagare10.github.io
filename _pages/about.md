@@ -27,7 +27,7 @@ custom_css: about.css
     <li><span class="chip-tag">Computer Architecture</span></li>
     <li><span class="chip-tag">Embedded Systems</span></li>
     <li><span class="chip-tag">VLSI Design</span></li>
-    <li><span class="chip-tag">FPGA</span> based SoC development!</li>
+    <li><span class="chip-tag">FPGA based SoC development</span></li>
   </ul>
 
   <h3 class="tech-title">Hackathons & Competitions 🏆</h3>
