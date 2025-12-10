@@ -73,7 +73,11 @@ custom_css: about.css
       </summary>
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
-        Qiskit notebooks, DD-pass schedulers, VQC experiments & challenge solutions:<br>
+        <p>
+          ❄️ ICE BATHE simplifies stock trading for beginners using optimized EMA crossover strategies, offering a plug-and-play, profit-focused, and beginner-friendly approach to trend detection and decision-making.<br>
+          🧩 Despite challenges like low initial returns and Blueshift setup issues, iterative tuning, backtesting, and platform learning helped us develop a robust and reliable trading strategy. 
+          <br>
+        </p>
         <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
           🔗 https://devfolio.co/projects/ice-bathe-db8c
         <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
