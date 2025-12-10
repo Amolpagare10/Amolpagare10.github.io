@@ -21,6 +21,7 @@ custom_css: hackathon.css
       <summary>
         <strong>IBM Quantum Challenge — Repository Info</strong>
       </summary>
+      <div class="collapse-outer">
       <div class="gh-box gh-info collapse-body">
       <p><strong>📦 Repository:</strong></p>
       <p>
@@ -32,12 +33,14 @@ custom_css: hackathon.css
         🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
       </a>
     </div>
+    </div>
     </details>  
     <li><strong>Indian Case Challenge, IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control systems, and evaluated AI chip company feasibility.</li>
     <details class="gh-collapse">
       <summary>
         <strong>Indian Case Challenge — Repository Info</strong>
       </summary>
+      <div class="collapse-outer">
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
         <p>
@@ -48,12 +51,14 @@ custom_css: hackathon.css
           🔗 https://github.com/Amolpagare10/ICC_IIT_Kharagpur
         </a>
       </div>
+      </div>  
     </details>  
     <li><strong>Algoswarm, Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
     <details class="gh-collapse">
       <summary>
         <strong>Team Finixitron - ICE BATHE — Repository Info</strong>
       </summary>
+      <div class="collapse-outer">
       <div class="gh-box gh-info collapse-body">
         <p><strong>📦 Repository:</strong></p>
         <p>
@@ -66,6 +71,7 @@ custom_css: hackathon.css
         <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
           🔗 https://github.com/Amolpagare10/Algoswarn_Quanthive
         </a>
+      </div>
       </div>
     </details>  
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
