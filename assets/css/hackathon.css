@@ -329,18 +329,22 @@
 /* ===========================================================
    COLLAPSIBLE ANIMATION
    =========================================================== */
-   
+
+/* Smooth collapsing animation (slow + smooth) */
 .collapse-outer {
   overflow: hidden;
   max-height: 0;
   opacity: 0;
+  transform: translateY(-10px);
   transition:
-    max-height 0.45s ease,
-    opacity 0.35s ease;
+    max-height 0.85s ease,
+    opacity 0.65s ease,
+    transform 0.65s ease;
 }
 
 /* When <details> is open → expand content */
 .gh-collapse[open] .collapse-outer {
-  max-height: 700px; /* big enough to fit content */
+  max-height: 900px; /* large enough to fit content */
   opacity: 1;
+  transform: translateY(0);
 }
