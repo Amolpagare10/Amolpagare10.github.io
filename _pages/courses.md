@@ -1,37 +1,82 @@
 ---
 layout: single
+permalink: /academics/
 title: ""
-permalink: /courses/
 author_profile: true
 classes: wide
-custom_css: courses.css
+custom_css: academics.css
 ---
 
-<div class="tech-bg"></div>
-<div class="circuit-lines"></div>
+<div class="tech-bg"></div>      
+<div class="circuit-lines"></div> 
 
 <div class="tech-wrapper">
 
 <div class="tech-hero">
-  <h1 class="tech-title"><strong>Academic Work</strong> 📘</h1>
-
+  <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1>
   <p class="tech-subtitle">
     A curated collection of my coursework at <strong>IIT Bombay</strong>.
   </p>
-  <ul class="tech-subtitle course-list">
-    <li><a href="https://github.com/Amolpagare10/EE789_Algorithmic_Design_of_Digital_Systems" target="_blank" class="chip-tag">EE 789 — Algorithmic Design of Digital Systems</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE_748_Advanced_Topics_in_Computer_Architecture" target="_blank" class="chip-tag">EE 748 — 	Advanced Topics in Computer Architecture</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE739_Processor_Design" target="_blank" class="chip-tag">EE 739 — Processor Design</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE_709_Testing_and_Verification_of_VLSI_Circuits" target="_blank" class="chip-tag">EE 709 — Testing & Verification of VLSI Circuits</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE705_VLSI_Design_Lab" target="_blank" class="chip-tag">EE 705 — VLSI Design Lab</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE678_Wavelets" target="_blank" class="chip-tag">EE 678 — Wavelets</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE677_VLSI_CAD" target="_blank" class="chip-tag">EE 677 — VLSI CAD</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE671_VLSI_Design" target="_blank" class="chip-tag">EE 671 — VLSI Design</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE_669_VLSI_Technology" target="_blank" class="chip-tag">EE 669 — VLSI Technology</a></li>
-    <li><a href="YOUR_GITHUB_LINK/EE451" target="_blank" class="chip-tag">EE 451 — Supervised Research Exposition</a></li>
-    <li><a href="https://github.com/Amolpagare10/EE344_Electronic_Design_lab" target="_blank" class="chip-tag">EE 344 — Electronic Design Lab</a></li>
-    <li><a href="YOUR_GITHUB_LINK/EE309" target="_blank" class="chip-tag">EE 309 — Microprocessors</a></li>
-    <li><a href="https://github.com/Amolpagare10/DH_607_Intro_to_Computational_Multiomnics" target="_blank" class="chip-tag">DH 607 — Introduction to Computational Multi-Omics</a></li>
+
+  <ul class="tech-subtitle">
+    <li><strong>EE 789 — Algorithmic Design of Digital Systems</strong><br> Achieved the IBM Quantum Challenge 2024 certification by successfully completing 5 labs within a timed environment.</li>
+    <details class="gh-collapse">
+      <summary>
+        <strong>IBM Quantum Challenge — Repository Info</strong>
+      </summary>
+      <div class="collapse-outer">
+      <div class="gh-box gh-info collapse-body">
+      <p><strong>📦 Repository:</strong></p>
+      <p>
+        <strong>🌐 IBM Quantum Challenge 2024</strong> — A global competition introducing participants to Qiskit 1.0, quantum circuits, AI-powered transpilation, and VQC-based quantum machine learning on real IBM Quantum hardware.
+        <br>
+        <strong>Key Learnings:</strong> Quantum basics (qubits, superposition), Qiskit 1.0 features, transpilation & circuit optimization, AI-driven improvements, and implementing a Variational Quantum Classifier (VQC).
+      </p>
+      <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
+        🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
+      </a>
+    </div>
+    </div>
+    </details>  
+    <li><strong>Indian Case Challenge, IIT Kharagpur</strong> — Designed market & revenue models for GPT Store; proposed strategy frameworks, quality-control systems, and evaluated AI chip company feasibility.</li>
+    <details class="gh-collapse">
+      <summary>
+        <strong>Indian Case Challenge — Repository Info</strong>
+      </summary>
+      <div class="collapse-outer">
+      <div class="gh-box gh-info collapse-body">
+        <p><strong>📦 Repository:</strong></p>
+        <p>
+          🇮🇳 The Indian Case Challenge (ICC) is IIT Kharagpur’s flagship national strategy competition, where top teams solve high-impact real-world business problems.<br>
+          🚀 Team Gyandu (IIT Bombay) crafted strategic, financial, and operational solutions to scale and sustain the GPT Builder and GPT Store ecosystem.
+        </p>
+          <a href="https://github.com/Amolpagare10/ICC_IIT_Kharagpur" target="_blank">
+          🔗 https://github.com/Amolpagare10/ICC_IIT_Kharagpur
+        </a>
+      </div>
+      </div>  
+    </details>  
+    <li><strong>Algoswarm, Quanthive</strong> — Advanced to Round 2; developed an ML-based trading model achieving <strong>50% simulated returns</strong> through structured backtesting.</li>
+    <details class="gh-collapse">
+      <summary>
+        <strong>Team Finixitron - ICE BATHE — Repository Info</strong>
+      </summary>
+      <div class="collapse-outer">
+      <div class="gh-box gh-info collapse-body">
+        <p><strong>📦 Repository:</strong></p>
+        <p>
+          ❄️ ICE BATHE simplifies stock trading for beginners using optimized EMA crossover strategies, offering a plug-and-play, profit-focused, and beginner-friendly approach to trend detection and decision-making.<br>
+          🧩 Despite challenges like low initial returns and Blueshift setup issues, iterative tuning, backtesting, and platform learning helped us develop a robust and reliable trading strategy.
+        </p>
+        <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
+          🔗 https://devfolio.co/projects/ice-bathe-db8c
+        </a><br>
+        <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
+          🔗 https://github.com/Amolpagare10/Algoswarn_Quanthive
+        </a>
+      </div>
+      </div>
+    </details>  
+    <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
   </ul>
-</div> <!-- tech-hero -->
-</div> <!-- tech-wrapper -->
+</div>
