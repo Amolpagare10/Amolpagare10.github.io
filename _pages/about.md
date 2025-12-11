@@ -23,7 +23,7 @@ custom_css: about.css
     Over the past few years, I’ve built systems that span the entire hardware stack — from transistor-level device modeling and physical design, to full RISC-V SoCs capable of booting Linux, to machine learning pipelines and computational biology workflows.
   </p>
 
-  <h3 class="tech-heading">🧠 What I Work On</h3>
+  <h3 class="tech-heading">🧠 What I've Worked On</h3>
   <ul class="tech-subtitle">
     <li><span class="chip-tag">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
     <li><span class="chip-tag">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
@@ -41,7 +41,7 @@ custom_css: about.css
   </p>
 
   <p class="tech-text">
-    I’ve also designed <strong>OoO superscalar processors</strong> with ROB, reservation stations, speculative execution, physical-register files, and full hazard-handling logic, along with <strong>in-order superscalar VHDL pipelines</strong> based on scoreboarding.
+    I’ve also designed <strong>OoO superscalar processors</strong> with ROB, reservation stations, speculative execution, physical-register files, and full hazard-handling logic, along with <strong>in-order superscalar VERILOG/VHDL pipelines</strong> based on scoreboarding.
   </p>
 </section>
 
@@ -52,7 +52,7 @@ custom_css: about.css
   </p>
 
   <p class="tech-text">
-    On the CAD side, I’ve built systems using <strong>ROBDDs, ATPG (minisat), equivalence checking, deductive fault simulation</strong>, and designed circuits via Aa→VHDL workflows. I’ve also completed full RTL-to-GDS flows in <strong>OpenLane</strong> including synthesis, place-route, DRC/LVS, and Liberty/LEF generation.
+    On the CAD side, I’ve built systems using <strong>ROBDDs, ATPG (minisat), equivalence checking, deductive fault simulation</strong>, and designed circuits via Aa(Algorithmic Assembly)→VHDL workflows. I’ve also completed full RTL-to-GDS flows in <strong>OpenLane</strong> using SkyWater 130nm PDK including synthesis, place-route, DRC/LVS, and Liberty/LEF generation.
   </p>
 </section>
 
