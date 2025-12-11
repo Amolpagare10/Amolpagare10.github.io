@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Miscellaneous"
+title: ""
 permalink: /miscellaneous/
 classes: wide
 author_profile: true
