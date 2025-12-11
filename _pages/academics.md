@@ -10,15 +10,18 @@ custom_css: academics.css
 <div class="tech-bg"></div>      
 <div class="circuit-lines"></div> 
 
-<div class="tech-wrapper">
+<!-- <div class="tech-wrapper"> -->
 
-<div class="tech-hero">
-  <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1>
-  <p class="tech-subtitle">
+<!-- <div class="tech-hero"> -->
+  <!-- <h1 class="tech-title"><strong>Courses</strong> & <strong>Academic Work</strong> 📘</h1> -->
+
+# Courses & Academic Work 📘
+
+  <p class="tech-text">
     A curated collection of my coursework at <strong>IIT Bombay</strong>.
   </p>
 
-  <ul class="tech-subtitle">
+  <ul class="tech-text">
     <!-- EE 789 -->
     <li><strong>EE 789 — Algorithmic Design of Digital Systems</strong><br>Introduced to Petri Nets and their advantages over traditional FSMs, followed by a detailed study of AHIR’s dataflow-based design model. Explored AHIR building blocks, their VHDL realizations, and applied them to digital system design through practical examples.</li>
     <details class="gh-collapse">
@@ -251,5 +254,4 @@ custom_css: academics.css
       </div>
     </details>
   </ul>
-</div>
-</div> <!-- tech-wrapper -->
+<!-- </div> -->
