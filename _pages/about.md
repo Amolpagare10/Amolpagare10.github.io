@@ -24,7 +24,7 @@ custom_css: about.css
   </p>
 </div>
 
-<h2 class="tech-heading">🧠 What I've Worked On</h3>
+<h2 class="tech-heading">🧠 What I've Worked On</h2>
 <ul class="tech-text">
   <li><span class="view-projects">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
   <li><span class="view-projects">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
