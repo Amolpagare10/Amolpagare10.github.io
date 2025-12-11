@@ -10,12 +10,12 @@ custom_css: hackathon.css
 <div class="tech-bg"></div>      
 <div class="circuit-lines"></div> 
 
-<div class="tech-wrapper">
+<!-- <div class="tech-wrapper"> -->
 
-<div class="tech-hero">
+<!-- <div class="tech-hero"> -->
   <h1 class="tech-title">Hackathons & Competitions 🏆</h1>
 
-  <ul class="tech-subtitle">
+  <ul class="tech-text">
     <li><strong>IBM Quantum Challenge</strong> — Achieved the IBM Quantum Challenge 2024 certification by successfully completing 5 labs within a timed environment.</li>
     <details class="gh-collapse">
       <summary>
@@ -76,4 +76,4 @@ custom_css: hackathon.css
     </details>  
     <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
   </ul>
-</div>
+<!-- </div> -->
