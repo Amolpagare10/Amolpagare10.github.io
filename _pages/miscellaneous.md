@@ -38,11 +38,3 @@ The system integrated precise motor control, responsive steering, and robust mec
 ### ✈️ **RC Plane Build Project**  
 Designed and assembled an **RC aircraft platform**, experimenting with aerodynamics, thrust–weight optimization, and stability control.  
 Worked on frame fabrication, control surfaces, propulsion selection, and tuning for smooth flight dynamics.
-
----
-
-## 🔧 Additional Technical Endeavours
-
-- Built multiple embedded and sensor-interfacing prototypes through club activities and independent experimentation.
-- Designed aesthetic technical posters, event themes, and outreach material used institute-wide.
-- Contributed to student initiatives, technical demonstrations, and peer mentorship across events and coursework.
