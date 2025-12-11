@@ -12,18 +12,18 @@ custom_css: miscellaneous.css
 
 # 🌟 Miscellaneous
 
-A collection of leadership experiences, robotics work, and hands-on technical projects that shaped my journey outside traditional coursework.
+A collection of robotics work, and hands-on technical projects that shaped my journey outside traditional coursework.
 
----
+## 📷 Positions of Responsibility
 
-## 🎓 Positions of Responsibility  
 ### **Media Secretary — Electrical Engineering Students' Association (EESA)**  
-**IIT Bombay | Jun ’23 – Apr ’24**
 
-- Strategized, coordinated, and executed department-wide events as part of a 12-member core organizing team.  
-- Grew the official EESA social media page to **18k+ followers**, designing thematic posters and content for all events.  
-- Contributed extensively to the 2-day Electrical Engineering Fest *Impulse* — including Alumni Networking, Workshops, Formals Night, Holi Night, and media & publicity workflows.  
-- Curated consistent, high-quality content that significantly amplified the association’s reach across the institute.
+- Helped plan and run department-wide events as part of a super energetic 12-member core team.  
+- Grew the EESA Instagram page to **18k+ followers**, creating posters and fun visual content for all our events.  
+- Played a big role in organizing the 2-day EE fest *Impulse* — Alumni Networking, Workshops, Formals Night, Holi Night, and all the media/publicity work.  
+- Designed clean, consistent content that boosted EESA’s visibility and engagement across the institute.
+
+<a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA</a>
 
 ---
 
@@ -46,11 +46,3 @@ Worked on frame fabrication, control surfaces, propulsion selection, and tuning 
 - Built multiple embedded and sensor-interfacing prototypes through club activities and independent experimentation.
 - Designed aesthetic technical posters, event themes, and outreach material used institute-wide.
 - Contributed to student initiatives, technical demonstrations, and peer mentorship across events and coursework.
-
----
-
-## 📬 Want to Know More?
-
-Feel free to explore my projects or reach out for collaborations!
-
-<a href="/projects" class="view-projects">View All Projects</a>

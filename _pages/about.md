@@ -52,7 +52,7 @@ custom_css: about.css
   </p>
 
   <p class="tech-text">
-    On the CAD side, I’ve built systems using <strong>ROBDDs, ATPG (minisat), equivalence checking, deductive fault simulation</strong>, and designed circuits via Aa(Algorithmic Assembly)→VHDL workflows. I’ve also completed full RTL-to-GDS flows in <strong>OpenLane</strong> using SkyWater 130nm PDK including synthesis, place-route, DRC/LVS, and Liberty/LEF generation.
+    On the CAD side, I’ve built systems using <strong>ROBDDs, ATPG (minisat), equivalence checking, deductive fault simulation</strong>, and designed circuits via Aa(Algorithmic Assembly)→VHDL workflows. I’ve also completed full RTL-to-GDS flows in <strong>OpenLane</strong> using <strong>SkyWater 130nm PDK</strong> including synthesis, place-route, DRC/LVS, and Liberty/LEF generation.
   </p>
 </section>
 
