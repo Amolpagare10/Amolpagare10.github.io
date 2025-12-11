@@ -25,11 +25,11 @@ custom_css: about.css
 
   <h3 class="tech-heading">🧠 What I Work On</h3>
   <ul class="tech-subtitle">
-    <li><span class="chip-tag">Computer Architecture</span> — RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
-    <li><span class="chip-tag">VLSI Design & CAD</span> — RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
-    <li><span class="chip-tag">Embedded & FPGA Systems</span> — dsPIC/ESP32 controllers, FPGA SoCs, digital signal pipelines</li>
-    <li><span class="chip-tag">AI/ML + Signal Processing</span> — wavelet-based segmentation, reinforcement learning, forecasting</li>
-    <li><span class="chip-tag">Computational Science</span> — multi-omics pipelines, docking simulations, quantum algorithms</li>
+    <li><span class="chip-tag">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
+    <li><span class="chip-tag">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
+    <li><span class="chip-tag">Embedded & FPGA Systems</span><br>dsPIC/ESP32 controllers, FPGA SoCs, digital signal pipelines</li>
+    <li><span class="chip-tag">AI/ML + Signal Processing</span><br>wavelet-based segmentation, reinforcement learning, forecasting</li>
+    <li><span class="chip-tag">Computational Science</span><br>multi-omics pipelines, docking simulations, quantum algorithms</li>
   </ul>
 </div>
 
