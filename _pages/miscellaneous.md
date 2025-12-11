@@ -14,23 +14,6 @@ custom_css: miscellaneous.css
 
 A collection of robotics work, and hands-on technical projects that shaped my journey outside traditional coursework.
 
-## 📷 Positions of Responsibility
-
-### **Media Secretary — Electrical Engineering Students' Association (EESA)**  
-
-I was part of a super energetic 12-member core team that helped plan and execute major department-wide events. I also grew the EESA Instagram page to **2k+ followers** and EESA Facebook Page to **17k+ followers** by creating posters and engaging visual content for all our activities. As a key contributor to the 2-day EE fest *Impulse*, I worked on Alumni Networking, Workshops, Formals Night, Holi Night, and all media/publicity efforts. Through consistent design and content strategy, I significantly boosted EESA’s visibility and engagement across the institute.
-
-<p>
-    <a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA Instagram</a>
-    <a href="https://www.facebook.com/eesa.iitb/" class="view-projects">➡️ EESA Facebook</a>
-</p>
-
-<div class="profile-image-wrapper">
-  <img src="/images/eesa.JPG" alt="eesa" class="profile-image">
-</div>
-
----
-
 ## 🤖 Robotics & Hands-On Engineering
 
 ### **XLR8 Robotics Challenge — IIT Bombay Robotics Club**  
@@ -49,4 +32,21 @@ Worked on frame fabrication, control surfaces, propulsion selection, and tuning 
 
 <div class="profile-image-wrapper">
   <img src="/images/rc_plane.jpeg" alt="rc plane" class="profile-image">
+</div>
+
+---
+
+## 📷 Positions of Responsibility
+
+### **Media Secretary — Electrical Engineering Students' Association (EESA)**  
+
+I was part of a super energetic 12-member core team that helped plan and execute major department-wide events. I also grew the EESA Instagram page to **2k+ followers** and EESA Facebook Page to **17k+ followers** by creating posters and engaging visual content for all our activities. As a key contributor to the 2-day EE fest *Impulse*, I worked on Alumni Networking, Workshops, Formals Night, Holi Night, and all media/publicity efforts. Through consistent design and content strategy, I significantly boosted EESA’s visibility and engagement across the institute.
+
+<p>
+    <a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA Instagram</a>
+    <a href="https://www.facebook.com/eesa.iitb/" class="view-projects">➡️ EESA Facebook</a>
+</p>
+
+<div class="profile-image-wrapper">
+  <img src="/images/eesa.JPG" alt="eesa" class="profile-image">
 </div>
