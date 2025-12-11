@@ -332,3 +332,38 @@
     inset 0 0 22px #00c2ff88,
     0 0 16px #29b6f6;
 }
+
+
+/* Profile Image Wrapper */
+.profile-image-wrapper {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* Glowing, animated profile photo */
+.profile-image {
+  max-width: 260px;
+  border-radius: 18px;
+
+  /* Neon glow background */
+  box-shadow:
+    0 0 18px rgba(0, 150, 255, 0.45),
+    0 0 30px rgba(0, 180, 255, 0.30),
+    inset 0 0 12px rgba(0, 120, 255, 0.25);
+
+  transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    filter 0.35s ease;
+}
+
+/* Hover Effect: Lift + Glow Bloom */
+.profile-image:hover {
+  transform: translateY(-6px) scale(1.03);
+  filter: brightness(1.12);
+
+  box-shadow:
+    0 0 25px rgba(0, 180, 255, 0.75),
+    0 0 40px rgba(0, 220, 255, 0.50),
+    inset 0 0 16px rgba(0, 150, 255, 0.45);
+}
