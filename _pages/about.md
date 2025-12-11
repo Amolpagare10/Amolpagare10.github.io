@@ -25,7 +25,7 @@ custom_css: about.css
 </div>
 
 <h3 class="tech-heading">🧠 What I've Worked On</h3>
-<ul class="tech-subtitle">
+<ul class="tech-text">
   <li><span class="chip-tag">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
   <li><span class="chip-tag">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
   <li><span class="chip-tag">Embedded & FPGA Systems</span><br>dsPIC/ESP32 controllers, FPGA SoCs, digital signal pipelines</li>
