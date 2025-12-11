@@ -79,5 +79,6 @@ custom_css: about.css
   <p class="tech-text">
     You can find my full list of academic and research projects here:<br>
     <a href="/academics" class="view-projects">➡️ View All Projects</a>
+    <a href="/hackathons" class="view-projects">➡️ View Hackathons</a>
   </p>
 </section>
