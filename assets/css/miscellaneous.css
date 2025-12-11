@@ -342,7 +342,7 @@
 
 /* Glowing, animated profile photo */
 .profile-image {
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 18px;
 
   /* Neon glow background */
