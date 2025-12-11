@@ -203,6 +203,47 @@
 }
 
 /* ===========================================================
+   COLLAPSIBLE — MATCHING `.view-projects` COLOR SCHEME
+   =========================================================== */
+
+.gh-collapse {
+  margin: 20px 0;
+}
+
+/* Remove default arrow */
+.gh-collapse summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Summary styled exactly like `.view-projects` */
+.gh-collapse summary {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+
+  background: rgba(0, 120, 255, 0.35);
+  border: 1px solid #4da6ff66;
+  color: #dff3ff;
+  font-weight: 600;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 0 14px #009dff55,
+    0 0 12px #007bff55;
+
+  transition: 0.25s ease;
+}
+
+.gh-collapse summary:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 0 22px #00c2ff88,
+    0 0 16px #29b6f6;
+}
+
+/* ===========================================================
    CLEAN & SMOOTH COLLAPSE ANIMATION
    =========================================================== */
 
