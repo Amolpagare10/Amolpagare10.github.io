@@ -75,17 +75,9 @@ custom_css: about.css
 </section>
 
 <section class="tech-section">
-  <h2 class="tech-heading">📚 Teaching, Mentoring & Open Source</h2>
-  <p class="tech-text">
-    I frequently help peers debug circuits, design pipelines, understand VLSI/architecture concepts, and structure labs. 
-    I also reproduce algorithms from research papers—ranging from <strong>fault simulators</strong> to <strong>branch predictors</strong>—and I plan to publish clean, reusable documentation for students and developers.
-  </p>
-</section>
-
-<section class="tech-section">
   <h2 class="tech-heading">📘 Complete Project Portfolio</h2>
   <p class="tech-text">
-    You can find my full list of academic, research, and independent projects here:<br>
+    You can find my full list of academic and research projects here:<br>
     <a class="portfolio-link" href="/academics" target="_blank">➡️ View All Projects</a>
   </p>
 </section>
