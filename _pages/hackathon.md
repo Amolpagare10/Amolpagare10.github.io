@@ -78,3 +78,29 @@ custom_css: hackathon.css
   </details>  
   <li><strong>Bona Consilia Challenge, StrategyCo. Global</strong> — Delivered structured, actionable solutions to a real-world consulting case problem.</li>
 </ul>
+
+<script>
+document.querySelectorAll(".gh-collapse").forEach(details => {
+  const content = details.querySelector(".collapse-outer");
+
+  details.addEventListener("toggle", () => {
+    if (details.open) {
+      // OPEN animation
+      content.style.height = content.scrollHeight + "px";
+      content.style.opacity = "1";
+
+      setTimeout(() => {
+        content.style.height = "auto";
+      }, 450);
+    } else {
+      // CLOSE animation
+      content.style.height = content.scrollHeight + "px";
+      content.style.opacity = "0";
+
+      requestAnimationFrame(() => {
+        content.style.height = "0px";
+      });
+    }
+  });
+});
+</script>
