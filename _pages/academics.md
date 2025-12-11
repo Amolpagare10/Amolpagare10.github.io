@@ -110,7 +110,7 @@ custom_css: academics.css
             Each assignment is backed by detailed reports, testbenches, Vivado projects, and hardware debugging via VIO/ILA. 📑📊<br>  
             Overall, the repository demonstrates complete RTL-to-FPGA design flow and hands-on SoC development experience. 🖥️✨
           </p>
-          <a href="https://github.com/Amolpagare10/EE_705_VLSI_Design_Lab" target="_blank">🔗 https://github.com/Amolpagare10/EE_705_VLSI_Design_Lab</a>
+          <a href="https://github.com/Amolpagare10/EE705_VLSI_Design_Lab" target="_blank">🔗 https://github.com/Amolpagare10/EE705_VLSI_Design_Lab</a>
         </div>
       </div>
     </details>
