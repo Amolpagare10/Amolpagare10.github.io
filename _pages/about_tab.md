@@ -4,7 +4,7 @@ permalink: /about/
 title: ""
 author_profile: true
 classes: wide
-custom_css: about.css
+custom_css: about_tab.css
 ---
 
 <div class="tech-bg"></div>      
