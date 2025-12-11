@@ -25,6 +25,10 @@ A collection of robotics work, and hands-on technical projects that shaped my jo
 
 <a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA</a>
 
+<div class="profile-image-wrapper">
+  <img src="/images/eesa.jpg" alt="eesa" class="profile-image">
+</div>
+
 ---
 
 ## 🤖 Robotics & Hands-On Engineering
