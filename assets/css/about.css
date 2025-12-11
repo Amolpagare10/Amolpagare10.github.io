@@ -304,3 +304,31 @@
 .gh-collapse .gh-box a:hover {
   color: #1f6feb !important;
 }
+
+/* ===========================================================
+   VIEW ALL PROJECTS BUTTON — Styled same as return-home
+   =========================================================== */
+.view-projects {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background: rgba(0, 120, 255, 0.35);
+  border: 1px solid #4da6ff66;
+  color: #dff3ff;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none !important;
+  backdrop-filter: blur(10px);
+  box-shadow:
+    inset 0 0 14px #009dff55,
+    0 0 12px #007bff55;
+  transition: 0.25s ease;
+}
+
+.view-projects:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 0 22px #00c2ff88,
+    0 0 16px #29b6f6;
+}

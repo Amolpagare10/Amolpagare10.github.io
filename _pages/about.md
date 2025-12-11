@@ -78,6 +78,6 @@ custom_css: about.css
   <h2 class="tech-heading">📘 Complete Project Portfolio</h2>
   <p class="tech-text">
     You can find my full list of academic and research projects here:<br>
-    <a class="portfolio-link" href="/academics" target="_blank">➡️ View All Projects</a>
+    <a href="/academics" class="view-projects">➡️ View All Projects</a>
   </p>
 </section>
