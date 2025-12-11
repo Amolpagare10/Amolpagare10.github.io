@@ -57,6 +57,13 @@ custom_css: about.css
 </section>
 
 <section class="tech-section">
+  <h2 class="tech-heading">📡 Embedded Systems & Hardware Design</h2>
+  <p class="tech-text">
+    I’ve designed full embedded systems such as <strong>EcoSync 8X</strong>, an ultrasonic SHM device with dsPIC33A, ESP32 pipelines, custom PCBs, and enclosure design. My coursework includes extensive MCU development (8051, dsPIC), analog design (filters, log amplifiers), and biomedical instrumentation (ECG amplifier).
+  </p>
+</section>
+
+<section class="tech-section">
   <h2 class="tech-heading">🧬 AI, Computational Science & Machine Learning</h2>
   <p class="tech-text">
     I’ve applied ML and signal processing techniques to diverse problems—from <strong>wavelet-enhanced U-Net architectures for MRI segmentation</strong> to <strong>Monte Carlo simulations for option pricing</strong>, and <strong>multi-omics analysis</strong> integrating genomic variants and miRNA networks. 
@@ -64,13 +71,6 @@ custom_css: about.css
 
   <p class="tech-text">
     My experience also includes <strong>deep reinforcement learning</strong> (DDQN, Monte Carlo ES), chess engines, and quantum algorithms, including VQE, Grover’s, Simon’s, Shor’s, and teleportation protocols.
-  </p>
-</section>
-
-<section class="tech-section">
-  <h2 class="tech-heading">📡 Embedded Systems & Hardware Design</h2>
-  <p class="tech-text">
-    I’ve designed full embedded systems such as <strong>EcoSync 8X</strong>, an ultrasonic SHM device with dsPIC33A, ESP32 pipelines, custom PCBs, and enclosure design. My coursework includes extensive MCU development (8051, dsPIC), analog design (filters, log amplifiers), and biomedical instrumentation (ECG amplifier).
   </p>
 </section>
 
