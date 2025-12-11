@@ -13,7 +13,9 @@ custom_css: hackathon.css
 <!-- <div class="tech-wrapper"> -->
 
 <!-- <div class="tech-hero"> -->
-  <h1 class="tech-title">Hackathons & Competitions 🏆</h1>
+  <!-- <h1 class="tech-title">Hackathons & Competitions 🏆</h1> -->
+
+# Hackathons & Competitions 🏆
 
   <ul class="tech-text">
     <li><strong>IBM Quantum Challenge</strong> — Achieved the IBM Quantum Challenge 2024 certification by successfully completing 5 labs within a timed environment.</li>
