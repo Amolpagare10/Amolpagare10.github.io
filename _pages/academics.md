@@ -37,7 +37,7 @@ custom_css: academics.css
             Each module includes source code, architecture diagrams, simulation results, and documentation 📄.<br> 
             Toolchain includes Vivado, VHDL, GTKWave, and Algorithmic Assembly 🛠️.
           </p>
-          <a href="https://github.com/Amolpagare10/EE789_Algorithmic_Design_of_Digital_Systems" target="_blank">🔗 [GitHub Link](https://github.com/Amolpagare10/EE789_Algorithmic_Design_of_Digital_Systems)</a>
+          <a href="https://github.com/Amolpagare10/EE789_Algorithmic_Design_of_Digital_Systems" target="_blank">🔗 GitHub Link</a>
         </div>
       </div>
     </details>
