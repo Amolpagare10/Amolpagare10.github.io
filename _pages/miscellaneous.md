@@ -34,7 +34,7 @@ Engineered a manually controlled robot capable of navigating diverse obstacles w
 The system integrated precise motor control, responsive steering, and robust mechanical design to achieve rapid traversal under competitive constraints.
 
 <div class="profile-image-wrapper">
-  <img src="/images/xlr8_1.jpg" alt="xlr8" class="profile-image">
+  <img src="/images/xlr8_3.jpg" alt="xlr8" class="profile-image">
 </div>
  
 ---
