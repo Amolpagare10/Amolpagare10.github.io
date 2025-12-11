@@ -22,16 +22,16 @@ custom_css: about.css
   <p class="tech-subtitle">
     Over the past few years, I’ve built systems that span the entire hardware stack — from transistor-level device modeling and physical design, to full RISC-V SoCs capable of booting Linux, to machine learning pipelines and computational biology workflows.
   </p>
-
-  <h3 class="tech-heading">🧠 What I've Worked On</h3>
-  <ul class="tech-subtitle">
-    <li><span class="chip-tag">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
-    <li><span class="chip-tag">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
-    <li><span class="chip-tag">Embedded & FPGA Systems</span><br>dsPIC/ESP32 controllers, FPGA SoCs, digital signal pipelines</li>
-    <li><span class="chip-tag">AI/ML + Signal Processing</span><br>wavelet-based segmentation, reinforcement learning, forecasting</li>
-    <li><span class="chip-tag">Computational Science</span><br>multi-omics pipelines, docking simulations, quantum algorithms</li>
-  </ul>
 </div>
+
+<h3 class="tech-heading">🧠 What I've Worked On</h3>
+<ul class="tech-subtitle">
+  <li><span class="chip-tag">Computer Architecture</span><br>RISC-V SoCs, OoO superscalar pipelines, caches, branch predictors</li>
+  <li><span class="chip-tag">VLSI Design & CAD</span><br>RTL-to-GDS, process simulation, ROBDDs, ATPG, formal verification</li>
+  <li><span class="chip-tag">Embedded & FPGA Systems</span><br>dsPIC/ESP32 controllers, FPGA SoCs, digital signal pipelines</li>
+  <li><span class="chip-tag">AI/ML + Signal Processing</span><br>wavelet-based segmentation, reinforcement learning, forecasting</li>
+  <li><span class="chip-tag">Computational Science</span><br>multi-omics pipelines, docking simulations, quantum algorithms</li>
+</ul>
 
 <section class="tech-section">
   <h2 class="tech-heading">🔧 Systems & Architecture Experience</h2>
