@@ -9,7 +9,6 @@ custom_css: miscellaneous.css
 
 <div class="tech-bg"></div>
 <div class="circuit-lines"></div>
-<div class="tech-wrapper">
 
 # 🌟 Miscellaneous
 
@@ -51,4 +50,3 @@ I was part of a super energetic 12-member core team that helped plan and execute
 <div class="profile-image-wrapper">
   <img src="/images/eesa.JPG" alt="eesa" class="profile-image">
 </div>
-</div> <!-- tech-wrapper -->
