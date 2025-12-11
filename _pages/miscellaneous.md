@@ -33,12 +33,13 @@ A collection of robotics work, and hands-on technical projects that shaped my jo
 Engineered a manually controlled robot capable of navigating diverse obstacles with high maneuverability, designed specifically for the **XLR8 obstacle-based racing competition**.  
 The system integrated precise motor control, responsive steering, and robust mechanical design to achieve rapid traversal under competitive constraints.
 
+<div class="profile-image-wrapper">
+  <img src="/images/xlr8_1.jpg" alt="xlr8" class="profile-image">
+</div>
+ 
 ---
 
 ### ✈️ **RC Plane Build Project**  
 Designed and assembled an **RC aircraft platform**, experimenting with aerodynamics, thrust–weight optimization, and stability control.  
 Worked on frame fabrication, control surfaces, propulsion selection, and tuning for smooth flight dynamics.
 
-<div class="profile-image-wrapper">
-  <img src="/images/xlr8_1.jpg" alt="xlr8" class="profile-image">
-</div>

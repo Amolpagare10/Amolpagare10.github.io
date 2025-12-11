@@ -336,13 +336,13 @@
 
 /* Profile Image Wrapper */
 .profile-image-wrapper {
-  text-align: center;
+  text-align: left;
   margin-top: 35px;
 }
 
 /* Glowing, animated profile photo */
 .profile-image {
-  max-width: 260px;
+  max-width: 300px;
   border-radius: 18px;
 
   /* Neon glow background */
