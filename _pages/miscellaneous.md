@@ -18,12 +18,12 @@ A collection of robotics work, and hands-on technical projects that shaped my jo
 
 ### **Media Secretary — Electrical Engineering Students' Association (EESA)**  
 
-- Helped plan and run department-wide events as part of a super energetic 12-member core team.  
-- Grew the EESA Instagram page to **18k+ followers**, creating posters and fun visual content for all our events.  
-- Played a big role in organizing the 2-day EE fest *Impulse* — Alumni Networking, Workshops, Formals Night, Holi Night, and all the media/publicity work.  
-- Designed clean, consistent content that boosted EESA’s visibility and engagement across the institute.
+I was part of a super energetic 12-member core team that helped plan and execute major department-wide events. I also grew the EESA Instagram page to **2k+ followers** by creating posters and engaging visual content for all our activities. As a key contributor to the 2-day EE fest *Impulse*, I worked on Alumni Networking, Workshops, Formals Night, Holi Night, and all media/publicity efforts. Through consistent design and content strategy, I significantly boosted EESA’s visibility and engagement across the institute.
 
-<a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA</a>
+
+<a href="https://www.instagram.com/eesa_iitb/?hl=en" class="view-projects">➡️ EESA Instagram</a>
+
+<a href="https://www.facebook.com/eesa.iitb/" class="view-projects">➡️ EESA Facebook</a>
 
 <div class="profile-image-wrapper">
   <img src="/images/eesa.jpg" alt="eesa" class="profile-image">
