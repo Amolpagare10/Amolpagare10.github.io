@@ -220,7 +220,7 @@ custom_css: academics.css
       </div>
     </details>
     <!-- EE 309 -->
-    <li><strong>EE 309 — Microprocessors (CISC & RISC)</strong><br>Short course summary here.</li>
+    <li><strong>EE 309 — Microprocessors (CISC & RISC)</strong><br>The course covered instruction set architectures, 8085/8051 microprocessors, assembly programming, timers, interrupts, delays, and peripheral interfacing. It also explored RISC vs. CISC architectures, multi-cycle and single-cycle CPUs, pipelining, and cache memory.</li>
     <details class="gh-collapse">
       <summary><strong>EE 309 — Repository Info</strong></summary>
       <div class="collapse-outer">
