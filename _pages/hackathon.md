@@ -31,8 +31,8 @@ custom_css: hackathon.css
       <br>
       <strong>Key Learnings:</strong> Quantum basics (qubits, superposition), Qiskit 1.0 features, transpilation & circuit optimization, AI-driven improvements, and implementing a Variational Quantum Classifier (VQC).
     </p>
-    <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
-      🔗 https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
+    🔗 <a href="https://github.com/Amolpagare10/IBM_Quantum_Challenge_24" target="_blank">
+      https://github.com/Amolpagare10/IBM_Quantum_Challenge_24
     </a>
   </div>
   </div>
@@ -49,8 +49,8 @@ custom_css: hackathon.css
         🇮🇳 The Indian Case Challenge (ICC) is IIT Kharagpur’s flagship national strategy competition, where top teams solve high-impact real-world business problems.<br>
         🚀 Team Gyandu (IIT Bombay) crafted strategic, financial, and operational solutions to scale and sustain the GPT Builder and GPT Store ecosystem.
       </p>
-        <a href="https://github.com/Amolpagare10/ICC_IIT_Kharagpur" target="_blank">
-        🔗 https://github.com/Amolpagare10/ICC_IIT_Kharagpur
+        🔗 <a href="https://github.com/Amolpagare10/ICC_IIT_Kharagpur" target="_blank">
+        https://github.com/Amolpagare10/ICC_IIT_Kharagpur
       </a>
     </div>
     </div>  
@@ -67,11 +67,11 @@ custom_css: hackathon.css
         ❄️ ICE BATHE simplifies stock trading for beginners using optimized EMA crossover strategies, offering a plug-and-play, profit-focused, and beginner-friendly approach to trend detection and decision-making.<br>
         🧩 Despite challenges like low initial returns and Blueshift setup issues, iterative tuning, backtesting, and platform learning helped us develop a robust and reliable trading strategy.
       </p>
-      <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
-        🔗 https://devfolio.co/projects/ice-bathe-db8c
+      🔗 <a href="https://devfolio.co/projects/ice-bathe-db8c" target="_blank">
+        https://devfolio.co/projects/ice-bathe-db8c
       </a><br>
-      <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
-        🔗 https://github.com/Amolpagare10/Algoswarn_Quanthive
+      🔗 <a href="https://github.com/Amolpagare10/Algoswarn_Quanthive" target="_blank">
+        https://github.com/Amolpagare10/Algoswarn_Quanthive
       </a>
     </div>
     </div>
